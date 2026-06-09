@@ -1,6 +1,7 @@
-import { Star, Users, Download } from "lucide-react"
+import { Star, Users, Download } from 'lucide-react'
+import { getTranslations } from 'next-intl/server'
 
-import { fetchPluginStats } from "@/lib/api/github"
+import { fetchPluginStats } from '@/lib/api/github'
 
 /**
  * Formats a large number into a compact human-readable string.
@@ -34,38 +35,40 @@ function StatItem({ icon, label, value }: StatItemProps) {
 
 /**
  * Server Component — fetches live GitHub stats and renders them as a
- * horizontal bar. Falls back to zeros if the API is unavailable.
- *
- * US-002: As a potential user, I want to see live project stats
- * (GitHub stars, contributors, total downloads).
+ * horizontal bar with translated labels. Falls back to zeros if the API
+ * is unavailable (US-002).
  */
 export async function StatsBar() {
-  const stats = await fetchPluginStats()
+  const [stats, t] = await Promise.all([
+    fetchPluginStats(),
+    getTranslations('StatsBar'),
+  ])
 
   return (
     <section
-      aria-label="Project statistics"
+      aria-label={t('ariaLabel')}
       className="border-y border-border bg-muted/30 py-4"
     >
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-6 px-6 sm:gap-10">
         <StatItem
           icon={<Star className="size-4" />}
           value={formatCount(stats.stars)}
-          label="GitHub Stars"
+          label={t('stars')}
         />
         <span className="hidden h-4 w-px bg-border sm:block" aria-hidden="true" />
         <StatItem
           icon={<Users className="size-4" />}
           value={formatCount(stats.contributors)}
-          label="Contributors"
+          label={t('contributors')}
         />
         <span className="hidden h-4 w-px bg-border sm:block" aria-hidden="true" />
         <StatItem
           icon={<Download className="size-4" />}
           value={formatCount(stats.totalDownloads)}
-          label="Downloads"
+          label={t('downloads')}
         />
       </div>
     </section>
   )
 }
+

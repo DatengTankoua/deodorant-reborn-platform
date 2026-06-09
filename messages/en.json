@@ -1,0 +1,48 @@
+{
+  "Metadata": {
+    "title": "intellij-deodorant-reborn — Code Clone Detection Plugin",
+    "titleTemplate": "%s | intellij-deodorant-reborn",
+    "description": "Open-source IntelliJ IDEA plugin for detecting and refactoring Type-1 and Type-2 code clones in Java/Kotlin projects. Research-driven, automated refactoring suggestions."
+  },
+  "Nav": {
+    "home": "Home",
+    "docs": "Docs",
+    "community": "Community",
+    "research": "Research",
+    "projects": "Projects",
+    "about": "About",
+    "selectLanguage": "Select language"
+  },
+  "Hero": {
+    "badge": "IntelliJ Platform Plugin",
+    "description": "Open-source IntelliJ IDEA plugin for detecting and refactoring Type-1 and Type-2 code clones in Java/Kotlin projects — research-driven, automated refactoring suggestions.",
+    "download": "Download Plugin",
+    "viewSource": "View Source"
+  },
+  "StatsBar": {
+    "ariaLabel": "Project statistics",
+    "loading": "Loading project statistics",
+    "stars": "GitHub Stars",
+    "contributors": "Contributors",
+    "downloads": "Downloads"
+  },
+  "Features": {
+    "heading": "Everything you need to fight code duplication",
+    "subheading": "A research-backed toolkit integrated directly into your IntelliJ workflow.",
+    "type1Title": "Type-1 Clone Detection",
+    "type1Description": "Identifies identical code fragments that differ only in whitespace, layout, and comments — across your entire Java/Kotlin project.",
+    "type2Title": "Type-2 Clone Detection",
+    "type2Description": "Finds syntactically similar code that differs in identifiers, literals, or types, catching near-duplicates that manual review misses.",
+    "refactoringTitle": "Automated Refactoring",
+    "refactoringDescription": "One-click refactoring suggestions — extract method, extract variable, and more — applied safely with full preview inside IntelliJ IDEA.",
+    "ideTitle": "Seamless IDE Integration",
+    "ideDescription": "Runs inside IntelliJ IDEA as a first-class plugin: inspections, gutter icons, and a dedicated tool window with no external setup.",
+    "incrementalTitle": "Incremental Analysis",
+    "incrementalDescription": "Only re-analyses changed files, keeping detection fast even on large codebases without blocking your workflow.",
+    "researchTitle": "Research-Driven",
+    "researchDescription": "Built on peer-reviewed clone detection research. Every detection heuristic is documented and traceable back to academic literature."
+  },
+  "Footer": {
+    "builtBy": "Built by"
+  }
+}

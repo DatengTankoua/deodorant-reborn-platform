@@ -1,56 +1,37 @@
-import { ScanSearch, GitCompare, Wrench, Puzzle, Zap, ShieldCheck } from "lucide-react"
+import { ScanSearch, GitCompare, Wrench, Puzzle, Zap, ShieldCheck } from 'lucide-react'
+import { useTranslations } from 'next-intl'
+
+type FeatureKey =
+  | 'type1'
+  | 'type2'
+  | 'refactoring'
+  | 'ide'
+  | 'incremental'
+  | 'research'
 
 interface Feature {
+  key: FeatureKey
   icon: React.ReactNode
-  title: string
-  description: string
 }
 
-/** Core plugin features displayed as scannable cards */
+/** Core plugin features with their icons */
 const FEATURES: Feature[] = [
-  {
-    icon: <ScanSearch className="size-5" />,
-    title: "Type-1 Clone Detection",
-    description:
-      "Identifies identical code fragments that differ only in whitespace, layout, and comments — across your entire Java/Kotlin project.",
-  },
-  {
-    icon: <GitCompare className="size-5" />,
-    title: "Type-2 Clone Detection",
-    description:
-      "Finds syntactically similar code that differs in identifiers, literals, or types, catching near-duplicates that manual review misses.",
-  },
-  {
-    icon: <Wrench className="size-5" />,
-    title: "Automated Refactoring",
-    description:
-      "One-click refactoring suggestions — extract method, extract variable, and more — applied safely with full preview inside IntelliJ IDEA.",
-  },
-  {
-    icon: <Puzzle className="size-5" />,
-    title: "Seamless IDE Integration",
-    description:
-      "Runs inside IntelliJ IDEA as a first-class plugin: inspections, gutter icons, and a dedicated tool window with no external setup.",
-  },
-  {
-    icon: <Zap className="size-5" />,
-    title: "Incremental Analysis",
-    description:
-      "Only re-analyses changed files, keeping detection fast even on large codebases without blocking your workflow.",
-  },
-  {
-    icon: <ShieldCheck className="size-5" />,
-    title: "Research-Driven",
-    description:
-      "Built on peer-reviewed clone detection research. Every detection heuristic is documented and traceable back to academic literature.",
-  },
+  { key: 'type1', icon: <ScanSearch className="size-5" /> },
+  { key: 'type2', icon: <GitCompare className="size-5" /> },
+  { key: 'refactoring', icon: <Wrench className="size-5" /> },
+  { key: 'ide', icon: <Puzzle className="size-5" /> },
+  { key: 'incremental', icon: <Zap className="size-5" /> },
+  { key: 'research', icon: <ShieldCheck className="size-5" /> },
 ]
 
 /**
- * Renders the Features section (US-003).
+ * Features section — US-003.
  * Displays core plugin capabilities as an accessible, keyboard-navigable card grid.
+ * All strings come from the active locale's translation file.
  */
 export function FeaturesSection() {
+  const t = useTranslations('Features')
+
   return (
     <section
       id="features"
@@ -62,20 +43,15 @@ export function FeaturesSection() {
           id="features-heading"
           className="text-3xl font-semibold tracking-tight sm:text-4xl"
         >
-          Everything you need to fight code duplication
+          {t('heading')}
         </h2>
-        <p className="mt-4 text-muted-foreground sm:text-lg">
-          A research-backed toolkit integrated directly into your IntelliJ workflow.
-        </p>
+        <p className="mt-4 text-muted-foreground sm:text-lg">{t('subheading')}</p>
       </div>
 
-      <ul
-        role="list"
-        className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
-      >
+      <ul role="list" className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {FEATURES.map((feature) => (
           <li
-            key={feature.title}
+            key={feature.key}
             className="rounded-xl border border-border bg-card p-6 transition-colors hover:bg-muted/40"
           >
             <div
@@ -84,9 +60,11 @@ export function FeaturesSection() {
             >
               {feature.icon}
             </div>
-            <h3 className="mb-2 font-semibold">{feature.title}</h3>
+            <h3 className="mb-2 font-semibold">
+              {t(`${feature.key}Title` as Parameters<typeof t>[0])}
+            </h3>
             <p className="text-sm leading-relaxed text-muted-foreground">
-              {feature.description}
+              {t(`${feature.key}Description` as Parameters<typeof t>[0])}
             </p>
           </li>
         ))}
@@ -94,3 +72,4 @@ export function FeaturesSection() {
     </section>
   )
 }
+

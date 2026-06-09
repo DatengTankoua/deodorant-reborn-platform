@@ -1,0 +1,48 @@
+{
+  "Metadata": {
+    "title": "intellij-deodorant-reborn — Plugin de détection de clones de code",
+    "titleTemplate": "%s | intellij-deodorant-reborn",
+    "description": "Plugin IntelliJ IDEA open-source pour détecter et refactoriser les clones de code de type 1 et type 2 dans les projets Java/Kotlin. Suggestions de refactoring automatisées fondées sur la recherche."
+  },
+  "Nav": {
+    "home": "Accueil",
+    "docs": "Documentation",
+    "community": "Communauté",
+    "research": "Recherche",
+    "projects": "Projets",
+    "about": "À propos",
+    "selectLanguage": "Sélectionner la langue"
+  },
+  "Hero": {
+    "badge": "Plugin IntelliJ Platform",
+    "description": "Plugin IntelliJ IDEA open-source pour détecter et refactoriser les clones de code de type 1 et type 2 dans les projets Java/Kotlin — suggestions de refactoring automatisées fondées sur la recherche.",
+    "download": "Télécharger le plugin",
+    "viewSource": "Voir le code source"
+  },
+  "StatsBar": {
+    "ariaLabel": "Statistiques du projet",
+    "loading": "Chargement des statistiques du projet",
+    "stars": "Étoiles GitHub",
+    "contributors": "Contributeurs",
+    "downloads": "Téléchargements"
+  },
+  "Features": {
+    "heading": "Tout ce qu'il vous faut pour lutter contre la duplication de code",
+    "subheading": "Une boîte à outils fondée sur la recherche, intégrée directement dans votre flux de travail IntelliJ.",
+    "type1Title": "Détection de clones de type 1",
+    "type1Description": "Identifie les fragments de code identiques qui ne diffèrent que par les espaces, la mise en page et les commentaires — dans l'ensemble de votre projet Java/Kotlin.",
+    "type2Title": "Détection de clones de type 2",
+    "type2Description": "Trouve du code syntaxiquement similaire qui diffère par les identifiants, les littéraux ou les types, détectant les quasi-doublons que la révision manuelle manque.",
+    "refactoringTitle": "Refactoring automatisé",
+    "refactoringDescription": "Suggestions de refactoring en un clic — extraire une méthode, extraire une variable, et plus — appliquées en toute sécurité avec un aperçu complet dans IntelliJ IDEA.",
+    "ideTitle": "Intégration transparente dans l'IDE",
+    "ideDescription": "Fonctionne dans IntelliJ IDEA comme un plugin de premier ordre : inspections, icônes de gouttière et une fenêtre d'outil dédiée sans configuration externe.",
+    "incrementalTitle": "Analyse incrémentale",
+    "incrementalDescription": "Réanalyse uniquement les fichiers modifiés, maintenant la détection rapide même sur de grandes bases de code sans bloquer votre flux de travail.",
+    "researchTitle": "Fondé sur la recherche",
+    "researchDescription": "Construit sur des recherches évaluées par des pairs en détection de clones. Chaque heuristique de détection est documentée et traçable dans la littérature académique."
+  },
+  "Footer": {
+    "builtBy": "Créé par"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "Metadata": {
+    "title": "intellij-deodorant-reborn — Code-Klon-Erkennungs-Plugin",
+    "titleTemplate": "%s | intellij-deodorant-reborn",
+    "description": "Open-Source IntelliJ IDEA Plugin zur Erkennung und Refaktorierung von Typ-1 und Typ-2 Code-Klonen in Java/Kotlin-Projekten. Forschungsbasierte, automatisierte Refactoring-Vorschläge."
+  },
+  "Nav": {
+    "home": "Startseite",
+    "docs": "Dokumentation",
+    "community": "Community",
+    "research": "Forschung",
+    "projects": "Projekte",
+    "about": "Über uns",
+    "selectLanguage": "Sprache auswählen"
+  },
+  "Hero": {
+    "badge": "IntelliJ-Plattform-Plugin",
+    "description": "Open-Source IntelliJ IDEA Plugin zur Erkennung und Refaktorierung von Typ-1 und Typ-2 Code-Klonen in Java/Kotlin-Projekten — forschungsbasierte, automatisierte Refactoring-Vorschläge.",
+    "download": "Plugin herunterladen",
+    "viewSource": "Quellcode ansehen"
+  },
+  "StatsBar": {
+    "ariaLabel": "Projektstatistiken",
+    "loading": "Projektstatistiken werden geladen",
+    "stars": "GitHub-Sterne",
+    "contributors": "Mitwirkende",
+    "downloads": "Downloads"
+  },
+  "Features": {
+    "heading": "Alles, was Sie zur Bekämpfung von Code-Duplikaten benötigen",
+    "subheading": "Ein forschungsbasiertes Toolkit, direkt in Ihren IntelliJ-Workflow integriert.",
+    "type1Title": "Typ-1-Klon-Erkennung",
+    "type1Description": "Erkennt identische Code-Fragmente, die sich nur in Leerzeichen, Layout und Kommentaren unterscheiden — im gesamten Java/Kotlin-Projekt.",
+    "type2Title": "Typ-2-Klon-Erkennung",
+    "type2Description": "Findet syntaktisch ähnlichen Code, der sich in Bezeichnern, Literalen oder Typen unterscheidet, und erkennt Duplikate, die manuelle Überprüfungen verpassen.",
+    "refactoringTitle": "Automatisiertes Refactoring",
+    "refactoringDescription": "Ein-Klick-Refactoring-Vorschläge — Methode extrahieren, Variable extrahieren und mehr — sicher mit vollständiger Vorschau in IntelliJ IDEA.",
+    "ideTitle": "Nahtlose IDE-Integration",
+    "ideDescription": "Läuft als erstklassiges Plugin in IntelliJ IDEA: Inspektionen, Leisten-Icons und ein dediziertes Werkzeugfenster ohne externe Einrichtung.",
+    "incrementalTitle": "Inkrementelle Analyse",
+    "incrementalDescription": "Analysiert nur geänderte Dateien erneut und hält die Erkennung auch bei großen Codebasen schnell, ohne den Arbeitsfluss zu unterbrechen.",
+    "researchTitle": "Forschungsbasiert",
+    "researchDescription": "Basiert auf begutachteter Forschung zur Klon-Erkennung. Jede Erkennungsheuristik ist dokumentiert und auf akademische Literatur zurückzuführen."
+  },
+  "Footer": {
+    "builtBy": "Erstellt von"
+  }
+}
