@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Download } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
@@ -23,16 +24,25 @@ export function Hero() {
       </p>
 
       <div className="flex flex-col items-center gap-3 sm:flex-row">
-        <Button size="lg" render={<a href={plugin.downloadUrl} target="_blank" rel="noreferrer" />}>
+        <Button
+          size="lg"
+          nativeButton={false}
+          render={
+            <a href={plugin.downloadUrl} target="_blank" rel="noopener noreferrer" />
+          }
+        >
           <Download aria-hidden="true" />
           Download Plugin
         </Button>
         <Button
           size="lg"
           variant="outline"
-          render={<a href={plugin.sourceUrl} target="_blank" rel="noreferrer" />}
+          nativeButton={false}
+          render={
+            <a href={plugin.sourceUrl} target="_blank" rel="noopener noreferrer" />
+          }
         >
-          <GithubIcon className="size-4" />
+          <GithubIcon className="size-4" aria-hidden="true" />
           View Source
         </Button>
       </div>
