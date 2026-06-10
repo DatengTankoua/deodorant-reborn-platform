@@ -8,12 +8,12 @@ export const siteConfig = {
     description:
       'Open-source IntelliJ IDEA plugin for detecting and refactoring Type-1 and Type-2 code clones in Java/Kotlin projects — research-driven, automated refactoring suggestions.',
     downloadUrl: 'https://plugins.jetbrains.com/plugin/your-plugin-id',
-    sourceUrl: 'https://github.com/your-username/intellij-deodorant-reborn',
+    sourceUrl: 'https://github.com/DatengTankoua/intellijdeodorant-thesis',
   },
   author: {
-    name: 'Your Name',
-    github: 'https://github.com/your-username',
-    linkedin: 'https://www.linkedin.com/in/your-profile',
+    name: 'Dateng Tankoua',
+    github: 'https://github.com/DatengTankoua',
+    linkedin: 'https://www.linkedin.com/in/emery-josian-dateng-tankoua-944522338',
   },
   nav: [
     { key: 'home' as NavKey, href: '/' },

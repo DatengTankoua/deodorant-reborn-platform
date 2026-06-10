@@ -1,0 +1,290 @@
+{
+  "Legal": {
+    "toc": "Table of Contents",
+    "backToHome": "← Back to Home",
+    "lastUpdatedLabel": "Last updated:",
+
+    "nav": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy",
+      "licenses": "Open Source Licenses",
+      "impressum": "Impressum",
+      "contact": "Contact"
+    },
+
+    "footer": {
+      "builtWith": "Built with ❤️ in Germany",
+      "rights": "All rights reserved."
+    },
+
+    "cookieBanner": {
+      "message": "We use essential cookies to keep the platform running and cookieless anonymous analytics to understand usage. No personal tracking, no advertising.",
+      "accept": "Accept",
+      "manage": "Manage Preferences",
+      "learnMore": "Cookie Policy"
+    },
+
+    "privacy": {
+      "metaTitle": "Privacy Policy — intellij-deodorant-reborn",
+      "metaDesc": "Learn how the intellij-deodorant-reborn platform collects, uses, and protects your personal data in compliance with GDPR.",
+      "title": "Privacy Policy",
+      "lastUpdated": "June 10, 2026",
+      "intro": "This Privacy Policy explains how Dateng Tankoua Emery Josian (\"we\", \"us\") collects, uses, and protects your personal data when you use the intellij-deodorant-reborn platform. We are committed to protecting your privacy in compliance with the General Data Protection Regulation (GDPR) and applicable German data protection law.",
+
+      "s1Title": "1. Data Controller",
+      "s1p1": "The data controller responsible for processing your personal data is:",
+      "s1p2": "Dateng Tankoua Emery Josian · Germany · datengtankoua@gmail.com",
+      "s1p3": "This is a non-commercial, private open-source portfolio project. No Data Protection Officer (DPO) is required under Art. 37 GDPR.",
+
+      "s2Title": "2. Data We Collect",
+      "s2p1": "We collect only the minimum data necessary to operate the platform:",
+      "s2Item1": "Anonymous download statistics — aggregate plugin download counts only. No IP address or browser data is stored.",
+      "s2Item2": "Feedback and feature requests — the text you submit and, optionally, your email address if you choose to provide it.",
+      "s2Item3": "Contact form — name (optional), email address, and your message.",
+      "s2Item4": "GitHub OAuth — if you sign in via GitHub, we receive your GitHub username, display name, avatar URL, and primary email address.",
+      "s2Item5": "Technical logs — our hosting providers (Vercel, Render) automatically record standard server logs (IP, timestamps, HTTP status). These are governed by the providers' own policies.",
+
+      "s3Title": "3. Legal Basis (GDPR Art. 6)",
+      "s3p1": "We process your data on the following legal bases:",
+      "s3Item1": "Art. 6(1)(a) — Consent: When you voluntarily provide your email address in a form.",
+      "s3Item2": "Art. 6(1)(b) — Contract performance: When you use community features (feedback, feature requests) that require an account.",
+      "s3Item3": "Art. 6(1)(f) — Legitimate interests: For anonymous download counting and platform security, without collecting personal data.",
+
+      "s4Title": "4. Data Retention",
+      "s4p1": "We retain data for the minimum period necessary:",
+      "s4Item1": "Anonymous download statistics — retained indefinitely (no personal data involved).",
+      "s4Item2": "Feedback and feature requests — retained for 2 years from submission, then deleted.",
+      "s4Item3": "Contact form submissions — retained for 1 year from last communication.",
+      "s4Item4": "GitHub OAuth data — retained until you delete your account or request erasure.",
+      "s4Item5": "Server logs (Vercel / Render) — per the provider's policy, typically 30–90 days.",
+
+      "s5Title": "5. Third-Party Services",
+      "s5p1": "We rely on the following third-party services to operate the platform:",
+      "s5VercelTitle": "Vercel — Frontend hosting and analytics",
+      "s5Vercel": "Our frontend is hosted on Vercel, Inc. (USA). Vercel Analytics collects anonymous, cookieless page-view statistics. Vercel is certified under the EU–US Data Privacy Framework. Privacy policy: vercel.com/legal/privacy-policy",
+      "s5SupabaseTitle": "Supabase — Database and authentication",
+      "s5Supabase": "Community data and authentication are managed by Supabase. Data is stored in AWS eu-central-1 (Frankfurt). Privacy policy: supabase.com/privacy",
+      "s5RenderTitle": "Render — Backend hosting",
+      "s5Render": "Our backend API runs on Render Services, Inc. (USA). Data transfer is governed by Standard Contractual Clauses (SCC). Privacy policy: render.com/privacy",
+      "s5GitHubTitle": "GitHub — API and OAuth",
+      "s5GitHub": "We use the GitHub API to display public repository statistics. If you sign in via GitHub OAuth, GitHub processes your authentication. GitHub is part of Microsoft Corporation and is subject to the EU–US Data Privacy Framework. Privacy policy: docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+
+      "s6Title": "6. Your Rights Under GDPR",
+      "s6p1": "As a data subject under the GDPR, you have the following rights:",
+      "s6Item1": "Right of access (Art. 15) — request a copy of the personal data we hold about you.",
+      "s6Item2": "Right to rectification (Art. 16) — request correction of inaccurate data.",
+      "s6Item3": "Right to erasure (Art. 17) — request deletion of your personal data, subject to legal retention obligations.",
+      "s6Item4": "Right to restriction of processing (Art. 18) — request that we limit how we use your data.",
+      "s6Item5": "Right to data portability (Art. 20) — request your data in a structured, machine-readable format.",
+      "s6Item6": "Right to object (Art. 21) — object to processing based on legitimate interests.",
+      "s6p2": "To exercise any of these rights, contact us at datengtankoua@gmail.com. We will respond within 30 days.",
+
+      "s7Title": "7. Data Security",
+      "s7p1": "We implement appropriate technical and organisational measures to protect your data: HTTPS for all traffic, database-level Row Level Security (RLS) via Supabase, and secret management via environment variables (no secrets in source code).",
+      "s7p2": "No internet transmission is 100% secure. While we strive to protect your data, we cannot guarantee absolute security.",
+
+      "s8Title": "8. Cookies and Local Storage",
+      "s8p1": "We use essential cookies and local storage for authentication sessions and user preferences (language, theme). Vercel Analytics is cookieless. For full details, please see our Cookie Policy.",
+
+      "s9Title": "9. Children's Privacy",
+      "s9p1": "This platform is not directed at children under 16. We do not knowingly collect data from children. If you believe we have inadvertently done so, please contact us immediately.",
+
+      "s10Title": "10. Changes to This Policy",
+      "s10p1": "We may update this Privacy Policy from time to time. The date at the top of this page indicates the most recent revision. Continued use of the platform after changes constitutes acceptance of the updated policy.",
+
+      "s11Title": "11. Supervisory Authority",
+      "s11p1": "You have the right to lodge a complaint with a data protection supervisory authority. The competent authority for the state of Hesse, Germany is:",
+      "s11p2": "Der Hessische Beauftragte für Datenschutz und Informationsfreiheit, Postfach 3163, 65021 Wiesbaden, Germany. Tel: +49 611 1408-0 — datenschutz.hessen.de",
+      "s11p3": "You may also contact the supervisory authority in your EU member state of habitual residence."
+    },
+
+    "terms": {
+      "metaTitle": "Terms of Service — intellij-deodorant-reborn",
+      "metaDesc": "Terms of Service for the intellij-deodorant-reborn platform and plugin.",
+      "title": "Terms of Service",
+      "lastUpdated": "June 10, 2026",
+      "intro": "By accessing or using the intellij-deodorant-reborn platform or plugin, you agree to be bound by these Terms of Service. If you do not agree, please do not use the platform or plugin.",
+
+      "s1Title": "1. Service Description",
+      "s1p1": "intellij-deodorant-reborn is a free, open-source IntelliJ IDEA plugin for detecting and refactoring Type-1 and Type-2 code clones in Java/Kotlin projects. This platform is its documentation, community, and download hub.",
+      "s1p2": "The platform and plugin are provided free of charge as a portfolio and academic research project. No commercial services, subscriptions, or paid features are offered.",
+
+      "s2Title": "2. Acceptance of Terms",
+      "s2p1": "By using the platform or installing the plugin, you confirm that you are at least 16 years of age and have the legal capacity to accept these terms.",
+
+      "s3Title": "3. Plugin License",
+      "s3p1": "The plugin is licensed under the MIT License. You may use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the plugin, subject to the MIT License conditions.",
+      "s3p2": "The original IntelliJDeodorant project, on which this work is based, is also MIT-licensed. Full license texts are available on the Licenses page.",
+
+      "s4Title": "4. Permitted Use",
+      "s4Intro": "You may:",
+      "s4Item1": "Download and install the plugin for personal or commercial development.",
+      "s4Item2": "Fork, modify, and redistribute the plugin under the MIT License.",
+      "s4Item3": "Submit feedback and feature requests via the community platform.",
+      "s4Item4": "Reference the platform and plugin in academic or professional contexts.",
+
+      "s5Title": "5. Prohibited Use",
+      "s5Intro": "You may not:",
+      "s5Item1": "Engage in automated scraping of the platform beyond what the GitHub API normally permits.",
+      "s5Item2": "Submit spam, harmful, illegal, or abusive content in feedback or feature requests.",
+      "s5Item3": "Attempt to exploit or attack the platform infrastructure.",
+      "s5Item4": "Impersonate other users or the project author.",
+      "s5Item5": "Use the platform or plugin for any purpose that violates applicable law.",
+
+      "s6Title": "6. Plugin Disclaimer",
+      "s6p1": "THE PLUGIN IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.",
+      "s6p2": "Automated code refactoring carries inherent risks. Before applying any refactoring, you should:",
+      "s6Item1": "Review all proposed changes carefully in the IntelliJ IDEA diff view.",
+      "s6Item2": "Ensure your code is committed to version control before applying changes.",
+      "s6Item3": "Run your full test suite after applying refactorings.",
+      "s6Item4": "Test in a development environment before applying changes to production code.",
+      "s6p3": "The author expressly disclaims any liability for bugs, data loss, incorrect refactorings, compilation errors, or any other issues arising from the use of this plugin.",
+
+      "s7Title": "7. Limitation of Liability",
+      "s7p1": "To the maximum extent permitted by German law, the author shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the platform or plugin, including loss of profits, data loss, or business interruption.",
+      "s7p2": "This limitation does not apply to cases of intent (Vorsatz) or gross negligence (grobe Fahrlässigkeit), nor to damages arising from injury to life, body, or health.",
+
+      "s8Title": "8. Intellectual Property",
+      "s8p1": "Plugin source code: MIT License — Copyright © 2024–2026 Dateng Tankoua Emery Josian.",
+      "s8p2": "Original IntelliJDeodorant: MIT License — credited in full on the Licenses page.",
+      "s8p3": "Platform website content and design: Copyright © 2024–2026 Dateng Tankoua Emery Josian. All rights reserved except as granted by the MIT License.",
+
+      "s9Title": "9. Governing Law",
+      "s9p1": "These Terms are governed by the laws of the Federal Republic of Germany, without regard to conflict of law provisions. The UN CISG does not apply.",
+      "s9p2": "Disputes arising from these Terms are subject to the exclusive jurisdiction of the courts in Germany, unless mandatory consumer protection provisions of your country of residence apply.",
+
+      "s10Title": "10. Changes to These Terms",
+      "s10p1": "We may update these Terms at any time. The date at the top of this page indicates the latest revision. Continued use of the platform after changes constitutes acceptance.",
+
+      "s11Title": "11. Contact",
+      "s11p1": "Questions about these Terms? Contact us at datengtankoua@gmail.com."
+    },
+
+    "cookies": {
+      "metaTitle": "Cookie Policy — intellij-deodorant-reborn",
+      "metaDesc": "Learn about the cookies and local storage used by the intellij-deodorant-reborn platform.",
+      "title": "Cookie Policy",
+      "lastUpdated": "June 10, 2026",
+      "intro": "This Cookie Policy explains how the intellij-deodorant-reborn platform uses cookies and similar browser technologies to ensure the platform functions correctly and to understand how it is used.",
+
+      "s1Title": "1. What Are Cookies?",
+      "s1p1": "Cookies are small text files stored on your device by your browser when you visit a website. They allow the site to remember information about your visit, such as your preferred language or login status.",
+      "s1p2": "We also use browser local storage — a similar technology that stores data in your browser without an expiry date, until you clear it manually.",
+
+      "s2Title": "2. Cookies and Storage We Use",
+
+      "s2EssentialTitle": "2.1 Essential Cookies",
+      "s2EssentialDesc": "Strictly necessary for the platform to function. Without them, authentication and language selection would not work.",
+      "s2E1Name": "NEXT_LOCALE",
+      "s2E1Purpose": "Stores your selected interface language (EN, DE, or FR).",
+      "s2E1Duration": "1 year",
+      "s2E1Provider": "First-party (intellij-deodorant-reborn)",
+      "s2E2Name": "sb-access-token / sb-refresh-token",
+      "s2E2Purpose": "Supabase authentication session tokens. Required when you are signed in.",
+      "s2E2Duration": "1 hour (access) / 7 days (refresh)",
+      "s2E2Provider": "Supabase",
+
+      "s2AnalyticsTitle": "2.2 Analytics",
+      "s2AnalyticsDesc": "We use Vercel Analytics, which is privacy-friendly and does NOT set any cookies. It collects anonymous, aggregate page-view data using hashed, non-identifiable signals.",
+      "s2AnalyticsNote": "No analytics cookies are set. Vercel Analytics is completely cookieless.",
+
+      "s2PreferenceTitle": "2.3 Preference Storage (Local Storage)",
+      "s2PreferenceDesc": "The following items are stored in your browser's local storage:",
+      "s2P1Name": "theme",
+      "s2P1Purpose": "Stores your dark/light mode preference.",
+      "s2P1Duration": "Until cleared by you",
+      "s2P2Name": "cookie-consent",
+      "s2P2Purpose": "Records that you have acknowledged this cookie banner.",
+      "s2P2Duration": "Until cleared by you",
+
+      "s2AdvertisingTitle": "2.4 Advertising and Tracking Cookies",
+      "s2AdvertisingDesc": "We do not use any advertising, marketing, or cross-site tracking cookies. No data is shared with advertising networks.",
+
+      "s3Title": "3. Your Consent",
+      "s3p1": "Essential cookies do not require consent as they are strictly necessary for the platform to operate. Vercel Analytics is cookieless and does not require consent.",
+      "s3p2": "Acknowledging the cookie banner stores your preference in local storage so the banner is not shown again.",
+
+      "s4Title": "4. Managing Cookies",
+      "s4p1": "You can control and delete cookies through your browser settings:",
+      "s4Item1": "Google Chrome — Settings → Privacy and security → Cookies and other site data",
+      "s4Item2": "Mozilla Firefox — Settings → Privacy & Security → Cookies and Site Data",
+      "s4Item3": "Safari — Preferences → Privacy → Manage Website Data",
+      "s4Item4": "Microsoft Edge — Settings → Cookies and site permissions",
+      "s4p2": "Disabling essential cookies may prevent authentication and language selection from working.",
+
+      "s5Title": "5. Changes to This Policy",
+      "s5p1": "We may update this Cookie Policy from time to time. The date at the top of this page reflects the latest update.",
+
+      "s6Title": "6. Contact",
+      "s6p1": "Questions about our use of cookies? Contact us at datengtankoua@gmail.com.",
+
+      "tableHeader1": "Name",
+      "tableHeader2": "Purpose",
+      "tableHeader3": "Duration",
+      "tableHeader4": "Provider"
+    },
+
+    "licenses": {
+      "metaTitle": "Open Source Licenses — intellij-deodorant-reborn",
+      "metaDesc": "MIT licenses and open-source acknowledgements for the intellij-deodorant-reborn plugin and platform.",
+      "title": "Open Source Licenses",
+      "lastUpdated": "June 10, 2026",
+      "intro": "The intellij-deodorant-reborn plugin and platform are built on the work of many open-source contributors. We gratefully acknowledge their contributions.",
+
+      "s1Title": "1. intellij-deodorant-reborn — MIT License",
+      "s1p1": "The intellij-deodorant-reborn plugin (this project) is licensed under the MIT License:",
+
+      "s2Title": "2. Original IntelliJDeodorant — MIT License",
+      "s2p1": "This plugin is a modernised fork of IntelliJDeodorant by Nikolaos Tsantalis et al. (Concordia University). The original project is MIT-licensed:",
+      "s2Repo": "Original repository: github.com/JetBrains-Research/IntelliJDeodorant",
+
+      "s3Title": "3. Platform Key Dependencies",
+      "s3p1": "The web platform uses the following key open-source packages (all MIT unless noted):",
+      "s3Item1": "Next.js — MIT — github.com/vercel/next.js",
+      "s3Item2": "React — MIT — github.com/facebook/react",
+      "s3Item3": "Tailwind CSS — MIT — github.com/tailwindlabs/tailwindcss",
+      "s3Item4": "Base UI (@base-ui/react) — MIT — base-ui.com",
+      "s3Item5": "next-intl — MIT — github.com/amannn/next-intl",
+      "s3Item6": "Lucide Icons — ISC — github.com/lucide-icons/lucide",
+      "s3Item7": "class-variance-authority — Apache 2.0 — github.com/joe-bell/cva",
+      "s3Item8": "TypeScript — Apache 2.0 — github.com/microsoft/TypeScript",
+
+      "s4Title": "4. Contribute",
+      "s4p1": "Contributions to intellij-deodorant-reborn are welcome! All contributions are accepted under the MIT License.",
+      "s4p2": "Visit the GitHub repository to open issues, submit pull requests, or read the contribution guidelines:"
+    },
+
+    "impressum": {
+      "metaTitle": "Impressum — intellij-deodorant-reborn",
+      "metaDesc": "Pflichtangaben gemäß § 5 TMG für die intellij-deodorant-reborn Plattform.",
+      "title": "Impressum",
+      "legalNote": "Angaben gemäß § 5 TMG (Telemediengesetz)",
+
+      "s1Title": "Verantwortlicher",
+      "s1Name": "Dateng Tankoua Emery Josian",
+      "s1AddressLabel": "Anschrift:",
+      "s1Address": "[Straße und Hausnummer], [PLZ Ort], Deutschland",
+      "s1EmailLabel": "E-Mail:",
+      "s1Email": "datengtankoua@gmail.com",
+      "s1Note": "Dieses Angebot ist ein privates, nicht-kommerzielles Open-Source-Portfolio-Projekt. Es werden keine Waren oder Dienstleistungen verkauft.",
+
+      "s2Title": "Verantwortlicher i.S.d. § 55 Abs. 2 RStV",
+      "s2Content": "Dateng Tankoua Emery Josian, Anschrift wie oben.",
+
+      "s3Title": "Haftungsausschluss",
+      "s3p1": "Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.",
+      "s3p2": "Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8–10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen.",
+
+      "s4Title": "Urheberrecht",
+      "s4p1": "Der Quellcode des Plugins steht unter der MIT-Lizenz (siehe /licenses). Die übrigen Inhalte dieser Website unterliegen dem deutschen Urheberrecht.",
+
+      "s5Title": "Externe Links",
+      "s5p1": "Diese Website enthält Links zu externen Websites Dritter. Für deren Inhalte sind stets die jeweiligen Anbieter verantwortlich. Wir haben keinen Einfluss auf diese Inhalte.",
+
+      "s6Title": "Streitschlichtung",
+      "s6p1": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung bereit: ec.europa.eu/consumers/odr/",
+      "s6p2": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen, da es sich um ein nicht-kommerzielles Privatprojekt handelt."
+    }
+  }
+}

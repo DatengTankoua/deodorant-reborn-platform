@@ -4,8 +4,8 @@ import { routing } from './routing'
 
 /**
  * Server-side i18n configuration.
- * Loads the correct message file for each request and falls back to the
- * default locale when the requested locale is not supported.
+ * Merges the base message file with the legal namespace file for each locale.
+ * Falls back to the default locale when the requested locale is not supported.
  */
 export default getRequestConfig(async ({ requestLocale }) => {
   const requested = await requestLocale
@@ -13,8 +13,14 @@ export default getRequestConfig(async ({ requestLocale }) => {
     ? requested
     : routing.defaultLocale
 
+  const [base, legal] = await Promise.all([
+    import(`../messages/${locale}.json`),
+    import(`../messages/${locale}/legal.json`).catch(() => ({ default: {} })),
+  ])
+
   return {
     locale,
-    messages: (await import(`../messages/${locale}.json`)).default,
+    messages: { ...base.default, ...legal.default },
   }
 })
+

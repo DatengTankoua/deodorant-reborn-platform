@@ -6,6 +6,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 
 import { routing } from '@/i18n/routing'
+import CookieBanner from '@/components/shared/cookie-banner'
 import '../globals.css'
 
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] })
@@ -91,6 +92,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <body className="font-sans antialiased">
         <NextIntlClientProvider>
           {children}
+          <CookieBanner />
         </NextIntlClientProvider>
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>

@@ -1,0 +1,289 @@
+{
+  "Legal": {
+    "toc": "Inhaltsverzeichnis",
+    "backToHome": "← Zur Startseite",
+    "lastUpdatedLabel": "Zuletzt aktualisiert:",
+
+    "nav": {
+      "privacy": "Datenschutzerklärung",
+      "terms": "Nutzungsbedingungen",
+      "cookies": "Cookie-Richtlinie",
+      "licenses": "Open-Source-Lizenzen",
+      "impressum": "Impressum",
+      "contact": "Kontakt"
+    },
+
+    "footer": {
+      "builtWith": "Mit ❤️ in Deutschland entwickelt",
+      "rights": "Alle Rechte vorbehalten."
+    },
+
+    "cookieBanner": {
+      "message": "Wir verwenden essentielle Cookies für den Betrieb der Plattform sowie cookielose, anonyme Analysen zur Verbesserung des Angebots. Kein persönliches Tracking, keine Werbung.",
+      "accept": "Akzeptieren",
+      "manage": "Einstellungen verwalten",
+      "learnMore": "Cookie-Richtlinie"
+    },
+
+    "privacy": {
+      "metaTitle": "Datenschutzerklärung — intellij-deodorant-reborn",
+      "metaDesc": "Erfahren Sie, wie die intellij-deodorant-reborn Plattform Ihre personenbezogenen Daten gemäß DSGVO erhebt, verwendet und schützt.",
+      "title": "Datenschutzerklärung",
+      "lastUpdated": "10. Juni 2026",
+      "intro": "Diese Datenschutzerklärung erläutert, wie Dateng Tankoua Emery Josian („wir") personenbezogene Daten erhebt, verwendet und schützt, wenn Sie die intellij-deodorant-reborn Plattform nutzen. Wir verpflichten uns zum Schutz Ihrer Privatsphäre gemäß der Datenschutz-Grundverordnung (DSGVO) und dem anwendbaren deutschen Datenschutzrecht.",
+
+      "s1Title": "1. Verantwortlicher",
+      "s1p1": "Der Verantwortliche im Sinne der DSGVO ist:",
+      "s1p2": "Dateng Tankoua Emery Josian · Deutschland · datengtankoua@gmail.com",
+      "s1p3": "Es handelt sich um ein privates, nicht-kommerzielles Open-Source-Projekt. Die Bestellung eines Datenschutzbeauftragten nach Art. 37 DSGVO ist nicht erforderlich.",
+
+      "s2Title": "2. Erhobene Daten",
+      "s2p1": "Wir erheben nur die für den Betrieb der Plattform erforderlichen Mindestdaten:",
+      "s2Item1": "Anonyme Download-Statistiken – ausschließlich aggregierte Downloadzahlen des Plugins. Es werden keine IP-Adressen oder Browserdaten gespeichert.",
+      "s2Item2": "Feedback und Feature-Anfragen – der von Ihnen eingegebene Text sowie optional Ihre E-Mail-Adresse, falls Sie diese angeben.",
+      "s2Item3": "Kontaktformular – Name (optional), E-Mail-Adresse und Ihre Nachricht.",
+      "s2Item4": "GitHub OAuth – bei Anmeldung über GitHub erhalten wir Ihren GitHub-Benutzernamen, Anzeigenamen, Avatar-URL und primäre E-Mail-Adresse.",
+      "s2Item5": "Technische Logs – unsere Hosting-Anbieter (Vercel, Render) erfassen automatisch Standard-Server-Logs (IP, Zeitstempel, HTTP-Status) für Sicherheits- und Betriebszwecke.",
+
+      "s3Title": "3. Rechtsgrundlage (Art. 6 DSGVO)",
+      "s3p1": "Wir verarbeiten Ihre Daten auf folgenden Rechtsgrundlagen:",
+      "s3Item1": "Art. 6 Abs. 1 lit. a DSGVO – Einwilligung: wenn Sie freiwillig Ihre E-Mail-Adresse in einem Formular angeben.",
+      "s3Item2": "Art. 6 Abs. 1 lit. b DSGVO – Vertragserfüllung: bei Nutzung der Community-Funktionen (Feedback, Feature-Anfragen) mit Nutzerkonto.",
+      "s3Item3": "Art. 6 Abs. 1 lit. f DSGVO – Berechtigte Interessen: für anonyme Download-Zählung und Plattformsicherheit ohne Erhebung personenbezogener Daten.",
+
+      "s4Title": "4. Speicherdauer",
+      "s4p1": "Wir speichern Ihre Daten nur so lange wie erforderlich:",
+      "s4Item1": "Anonyme Download-Statistiken – unbefristet (kein Personenbezug).",
+      "s4Item2": "Feedback und Feature-Anfragen – 2 Jahre ab Einreichung, dann Löschung.",
+      "s4Item3": "Kontaktformular-Einsendungen – 1 Jahr ab letztem Kontakt.",
+      "s4Item4": "GitHub OAuth-Daten – bis zur Kontolöschung oder auf Anfrage.",
+      "s4Item5": "Server-Logs (Vercel / Render) – gemäß Anbieterrichtlinie, typischerweise 30–90 Tage.",
+
+      "s5Title": "5. Drittanbieter",
+      "s5p1": "Wir nutzen folgende Drittanbieter für den Betrieb der Plattform:",
+      "s5VercelTitle": "Vercel – Frontend-Hosting und Analyse",
+      "s5Vercel": "Das Frontend wird von Vercel, Inc. (USA) gehostet. Vercel Analytics erhebt anonyme, cookielose Seitenaufruf-Statistiken. Vercel ist nach dem EU-US-Datenschutzrahmen zertifiziert. Datenschutzerklärung: vercel.com/legal/privacy-policy",
+      "s5SupabaseTitle": "Supabase – Datenbank und Authentifizierung",
+      "s5Supabase": "Community-Daten und Authentifizierung werden über Supabase verwaltet. Daten werden in AWS eu-central-1 (Frankfurt) gespeichert. Datenschutzerklärung: supabase.com/privacy",
+      "s5RenderTitle": "Render – Backend-Hosting",
+      "s5Render": "Unsere Backend-API läuft auf Render Services, Inc. (USA). Datentransfers werden durch Standardvertragsklauseln (SCC) abgesichert. Datenschutzerklärung: render.com/privacy",
+      "s5GitHubTitle": "GitHub – API und OAuth",
+      "s5GitHub": "Die GitHub-API wird für öffentliche Repository-Statistiken genutzt. Bei GitHub-OAuth verarbeitet GitHub die Authentifizierung. GitHub gehört zur Microsoft Corporation und ist dem EU-US-Datenschutzrahmen beigetreten. Datenschutzerklärung: docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+
+      "s6Title": "6. Ihre Rechte nach DSGVO",
+      "s6p1": "Als betroffene Person stehen Ihnen folgende Rechte zu:",
+      "s6Item1": "Auskunftsrecht (Art. 15) – Kopie der über Sie gespeicherten Daten anfordern.",
+      "s6Item2": "Recht auf Berichtigung (Art. 16) – Korrektur unrichtiger Daten verlangen.",
+      "s6Item3": "Recht auf Löschung (Art. 17) – Löschung Ihrer Daten beantragen, vorbehaltlich gesetzlicher Aufbewahrungspflichten.",
+      "s6Item4": "Recht auf Einschränkung der Verarbeitung (Art. 18) – Einschränkung der Datennutzung verlangen.",
+      "s6Item5": "Recht auf Datenübertragbarkeit (Art. 20) – Daten in einem maschinenlesbaren Format anfordern.",
+      "s6Item6": "Widerspruchsrecht (Art. 21) – Widerspruch gegen die Verarbeitung auf Basis berechtigter Interessen einlegen.",
+      "s6p2": "Zur Ausübung Ihrer Rechte wenden Sie sich bitte an: datengtankoua@gmail.com. Wir antworten innerhalb von 30 Tagen.",
+
+      "s7Title": "7. Datensicherheit",
+      "s7p1": "Wir setzen geeignete technische und organisatorische Maßnahmen ein: HTTPS-Verschlüsselung für alle Übertragungen, datenbankbasierte Row Level Security (RLS) über Supabase sowie Secret-Management über Umgebungsvariablen.",
+      "s7p2": "Keine Übertragung über das Internet ist zu 100 % sicher. Wir sind stets bemüht, Ihre Daten bestmöglich zu schützen.",
+
+      "s8Title": "8. Cookies und lokaler Speicher",
+      "s8p1": "Wir verwenden essentielle Cookies und lokalen Browser-Speicher für Authentifizierungs-Sessions und Nutzereinstellungen (Sprache, Theme). Vercel Analytics ist cookielos. Einzelheiten finden Sie in unserer Cookie-Richtlinie.",
+
+      "s9Title": "9. Datenschutz von Kindern",
+      "s9p1": "Diese Plattform richtet sich nicht an Kinder unter 16 Jahren. Wir erheben wissentlich keine Daten von Kindern. Falls Sie der Meinung sind, dass wir versehentlich Daten eines Kindes erhoben haben, kontaktieren Sie uns bitte umgehend.",
+
+      "s10Title": "10. Änderungen dieser Datenschutzerklärung",
+      "s10p1": "Wir können diese Datenschutzerklärung jederzeit aktualisieren. Das Datum oben auf dieser Seite gibt die letzte Aktualisierung an. Die weitere Nutzung der Plattform nach Änderungen gilt als Zustimmung zur aktualisierten Erklärung.",
+
+      "s11Title": "11. Aufsichtsbehörde",
+      "s11p1": "Sie haben das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren. Die zuständige Behörde für das Bundesland Hessen ist:",
+      "s11p2": "Der Hessische Beauftragte für Datenschutz und Informationsfreiheit, Postfach 3163, 65021 Wiesbaden. Tel.: +49 611 1408-0 — datenschutz.hessen.de",
+      "s11p3": "Sie können sich auch an die Aufsichtsbehörde Ihres gewöhnlichen Aufenthaltsortes in der EU wenden."
+    },
+
+    "terms": {
+      "metaTitle": "Nutzungsbedingungen — intellij-deodorant-reborn",
+      "metaDesc": "Nutzungsbedingungen für die intellij-deodorant-reborn Plattform und das Plugin.",
+      "title": "Nutzungsbedingungen",
+      "lastUpdated": "10. Juni 2026",
+      "intro": "Mit dem Zugriff auf oder der Nutzung der intellij-deodorant-reborn Plattform und des Plugins erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie nicht einverstanden sind, nutzen Sie die Plattform oder das Plugin bitte nicht.",
+
+      "s1Title": "1. Leistungsbeschreibung",
+      "s1p1": "intellij-deodorant-reborn ist ein kostenloses, quelloffenes IntelliJ-IDEA-Plugin zur Erkennung und Refaktorierung von Typ-1- und Typ-2-Code-Klonen in Java/Kotlin-Projekten. Diese Plattform dient als Dokumentations-, Community- und Download-Hub.",
+      "s1p2": "Plattform und Plugin werden kostenlos als Portfolio- und Forschungsprojekt bereitgestellt. Es werden keine kommerziellen Dienste, Abonnements oder kostenpflichtigen Funktionen angeboten.",
+
+      "s2Title": "2. Akzeptanz der Bedingungen",
+      "s2p1": "Mit der Nutzung der Plattform oder der Installation des Plugins bestätigen Sie, mindestens 16 Jahre alt zu sein und die rechtliche Handlungsfähigkeit zu besitzen, diese Bedingungen zu akzeptieren.",
+
+      "s3Title": "3. Plugin-Lizenz",
+      "s3p1": "Das Plugin ist unter der MIT-Lizenz lizenziert. Sie dürfen das Plugin kostenlos nutzen, kopieren, modifizieren, zusammenführen, veröffentlichen, verteilen, unterlizenzieren und/oder verkaufen, vorbehaltlich der MIT-Lizenzbedingungen.",
+      "s3p2": "Das ursprüngliche IntelliJDeodorant-Projekt, auf dem dieses Plugin basiert, ist ebenfalls MIT-lizenziert. Die vollständigen Lizenztexte finden Sie auf der Lizenzseite.",
+
+      "s4Title": "4. Erlaubte Nutzung",
+      "s4Intro": "Sie dürfen:",
+      "s4Item1": "Das Plugin für persönliche oder kommerzielle Entwicklungsprojekte herunterladen und installieren.",
+      "s4Item2": "Das Plugin unter der MIT-Lizenz forken, modifizieren und weitergeben.",
+      "s4Item3": "Feedback und Feature-Anfragen über die Community-Plattform einreichen.",
+      "s4Item4": "Die Plattform und das Plugin in akademischen oder beruflichen Kontexten referenzieren.",
+
+      "s5Title": "5. Verbotene Nutzung",
+      "s5Intro": "Sie dürfen nicht:",
+      "s5Item1": "Die Plattform automatisiert scrapen, soweit dies über das von der GitHub-API normalerweise Erlaubte hinausgeht.",
+      "s5Item2": "Spam, schädliche, illegale oder missbräuchliche Inhalte in Feedback oder Feature-Anfragen einreichen.",
+      "s5Item3": "Versuchen, die Plattform-Infrastruktur zu exploiten oder anzugreifen.",
+      "s5Item4": "Andere Nutzer oder den Projektautor imitieren.",
+      "s5Item5": "Die Plattform oder das Plugin für Zwecke nutzen, die gegen geltendes Recht verstoßen.",
+
+      "s6Title": "6. Haftungsausschluss für das Plugin",
+      "s6p1": "DAS PLUGIN WIRD „WIE BESEHEN" (AS IS) OHNE JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GARANTIE BEREITGESTELLT, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF GARANTIEN DER MARKTGÄNGIGKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG VON RECHTEN DRITTER.",
+      "s6p2": "Automatisiertes Code-Refactoring birgt inhärente Risiken. Vor der Anwendung eines Refactorings sollten Sie:",
+      "s6Item1": "Alle vorgeschlagenen Änderungen sorgfältig in der IntelliJ-IDEA-Diff-Ansicht überprüfen.",
+      "s6Item2": "Sicherstellen, dass Ihr Code vor der Anwendung von Änderungen in die Versionskontrolle eingecheckt ist.",
+      "s6Item3": "Ihre vollständige Testsuite nach dem Refactoring ausführen.",
+      "s6Item4": "Änderungen zunächst in einer Entwicklungsumgebung testen, bevor Sie sie auf Produktionscode anwenden.",
+      "s6p3": "Der Autor schließt ausdrücklich jede Haftung für Fehler, Datenverlust, fehlerhafte Refactorings, Kompilierungsfehler oder sonstige Schäden aus der Nutzung dieses Plugins aus.",
+
+      "s7Title": "7. Haftungsbeschränkung",
+      "s7p1": "Im gesetzlich zulässigen Umfang haftet der Autor nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, die aus der Nutzung der Plattform oder des Plugins entstehen, einschließlich Gewinnverlust, Datenverlust oder Betriebsunterbrechung.",
+      "s7p2": "Diese Haftungsbeschränkung gilt nicht bei Vorsatz oder grober Fahrlässigkeit sowie bei Schäden aus der Verletzung von Leben, Körper oder Gesundheit.",
+
+      "s8Title": "8. Geistiges Eigentum",
+      "s8p1": "Plugin-Quellcode: MIT-Lizenz – Copyright © 2024–2026 Dateng Tankoua Emery Josian.",
+      "s8p2": "Originales IntelliJDeodorant: MIT-Lizenz – vollständig auf der Lizenzseite angegeben.",
+      "s8p3": "Website-Inhalte und -Design: Copyright © 2024–2026 Dateng Tankoua Emery Josian. Alle Rechte vorbehalten, soweit nicht durch die MIT-Lizenz gewährt.",
+
+      "s9Title": "9. Anwendbares Recht",
+      "s9p1": "Diese Nutzungsbedingungen unterliegen dem Recht der Bundesrepublik Deutschland unter Ausschluss der Kollisionsnormen. Das UN-Kaufrecht (CISG) findet keine Anwendung.",
+      "s9p2": "Streitigkeiten aus diesen Bedingungen unterliegen der ausschließlichen Zuständigkeit der deutschen Gerichte, sofern nicht zwingende Verbraucherschutzvorschriften Ihres Landes etwas anderes bestimmen.",
+
+      "s10Title": "10. Änderungen der Bedingungen",
+      "s10p1": "Wir behalten uns vor, diese Bedingungen jederzeit zu aktualisieren. Das Datum oben auf dieser Seite gibt die letzte Überarbeitung an. Die weitere Nutzung der Plattform nach Änderungen gilt als Zustimmung.",
+
+      "s11Title": "11. Kontakt",
+      "s11p1": "Fragen zu diesen Nutzungsbedingungen? Kontaktieren Sie uns unter datengtankoua@gmail.com."
+    },
+
+    "cookies": {
+      "metaTitle": "Cookie-Richtlinie — intellij-deodorant-reborn",
+      "metaDesc": "Erfahren Sie, welche Cookies und lokalen Speichertechnologien die intellij-deodorant-reborn Plattform verwendet.",
+      "title": "Cookie-Richtlinie",
+      "lastUpdated": "10. Juni 2026",
+      "intro": "Diese Cookie-Richtlinie erklärt, wie die intellij-deodorant-reborn Plattform Cookies und ähnliche Browser-Technologien verwendet, um den ordnungsgemäßen Betrieb der Plattform sicherzustellen und zu verstehen, wie sie genutzt wird.",
+
+      "s1Title": "1. Was sind Cookies?",
+      "s1p1": "Cookies sind kleine Textdateien, die von Ihrem Browser auf Ihrem Gerät gespeichert werden, wenn Sie eine Website besuchen. Sie ermöglichen es der Website, Informationen über Ihren Besuch zu speichern, z. B. Ihre bevorzugte Sprache oder Ihren Anmeldestatus.",
+      "s1p2": "Wir verwenden auch den lokalen Browser-Speicher – eine ähnliche Technologie, die Daten ohne Ablaufdatum in Ihrem Browser speichert, bis Sie ihn manuell leeren.",
+
+      "s2Title": "2. Von uns verwendete Cookies und Speicher",
+      "s2EssentialTitle": "2.1 Essentielle Cookies",
+      "s2EssentialDesc": "Diese Cookies sind für den Betrieb der Plattform unbedingt erforderlich. Ohne sie würden Authentifizierung und Sprachauswahl nicht funktionieren.",
+      "s2E1Name": "NEXT_LOCALE",
+      "s2E1Purpose": "Speichert Ihre gewählte Oberflächensprache (DE, EN oder FR).",
+      "s2E1Duration": "1 Jahr",
+      "s2E1Provider": "Eigene (intellij-deodorant-reborn)",
+      "s2E2Name": "sb-access-token / sb-refresh-token",
+      "s2E2Purpose": "Supabase-Authentifizierungs-Session-Tokens. Erforderlich bei Anmeldung.",
+      "s2E2Duration": "1 Stunde (Access) / 7 Tage (Refresh)",
+      "s2E2Provider": "Supabase",
+
+      "s2AnalyticsTitle": "2.2 Analyse",
+      "s2AnalyticsDesc": "Wir verwenden Vercel Analytics, ein datenschutzfreundliches Analysetool, das KEINE Cookies setzt und Ihre Aktivitäten NICHT websiteübergreifend verfolgt. Es erfasst anonyme, aggregierte Seitenaufruf-Statistiken.",
+      "s2AnalyticsNote": "Es werden keine Analyse-Cookies gesetzt. Vercel Analytics ist vollständig cookielos.",
+
+      "s2PreferenceTitle": "2.3 Einstellungs-Speicher (lokaler Speicher)",
+      "s2PreferenceDesc": "Folgende Einträge werden im lokalen Speicher Ihres Browsers abgelegt:",
+      "s2P1Name": "theme",
+      "s2P1Purpose": "Speichert Ihre Dark-/Light-Mode-Einstellung.",
+      "s2P1Duration": "Bis zur manuellen Löschung",
+      "s2P2Name": "cookie-consent",
+      "s2P2Purpose": "Speichert, ob Sie diesen Cookie-Banner bestätigt haben.",
+      "s2P2Duration": "Bis zur manuellen Löschung",
+
+      "s2AdvertisingTitle": "2.4 Werbe- und Tracking-Cookies",
+      "s2AdvertisingDesc": "Wir verwenden keinerlei Werbe-, Marketing- oder websiteübergreifende Tracking-Cookies. Es werden keine Daten an Werbenetzwerke weitergegeben.",
+
+      "s3Title": "3. Ihre Einwilligung",
+      "s3p1": "Essentielle Cookies bedürfen keiner Einwilligung, da sie für den Betrieb der Plattform unbedingt erforderlich sind. Vercel Analytics ist cookielos und erfordert keine Einwilligung.",
+      "s3p2": "Das Bestätigen des Cookie-Banners speichert Ihre Einstellung im lokalen Speicher, sodass der Banner nicht erneut angezeigt wird.",
+
+      "s4Title": "4. Cookie-Verwaltung",
+      "s4p1": "Sie können Cookies über die Einstellungen Ihres Browsers verwalten und löschen:",
+      "s4Item1": "Google Chrome – Einstellungen → Datenschutz und Sicherheit → Cookies und andere Websitedaten",
+      "s4Item2": "Mozilla Firefox – Einstellungen → Datenschutz & Sicherheit → Cookies und Website-Daten",
+      "s4Item3": "Safari – Einstellungen → Datenschutz → Website-Daten verwalten",
+      "s4Item4": "Microsoft Edge – Einstellungen → Cookies und Websiteberechtigungen",
+      "s4p2": "Das Deaktivieren essentieller Cookies kann die Authentifizierung und Sprachauswahl beeinträchtigen.",
+
+      "s5Title": "5. Änderungen dieser Richtlinie",
+      "s5p1": "Diese Cookie-Richtlinie kann jederzeit aktualisiert werden. Das Datum oben auf der Seite gibt die letzte Aktualisierung an.",
+
+      "s6Title": "6. Kontakt",
+      "s6p1": "Fragen zur Verwendung von Cookies? Kontaktieren Sie uns unter datengtankoua@gmail.com.",
+
+      "tableHeader1": "Name",
+      "tableHeader2": "Zweck",
+      "tableHeader3": "Dauer",
+      "tableHeader4": "Anbieter"
+    },
+
+    "licenses": {
+      "metaTitle": "Open-Source-Lizenzen — intellij-deodorant-reborn",
+      "metaDesc": "MIT-Lizenzen und Open-Source-Anerkennungen für das intellij-deodorant-reborn Plugin und die Plattform.",
+      "title": "Open-Source-Lizenzen",
+      "lastUpdated": "10. Juni 2026",
+      "intro": "Das intellij-deodorant-reborn Plugin und die Plattform basieren auf der Arbeit vieler Open-Source-Mitwirkender. Wir danken Ihnen ausdrücklich für ihre Beiträge.",
+
+      "s1Title": "1. intellij-deodorant-reborn — MIT-Lizenz",
+      "s1p1": "Das intellij-deodorant-reborn Plugin (dieses Projekt) steht unter der MIT-Lizenz:",
+
+      "s2Title": "2. Originales IntelliJDeodorant — MIT-Lizenz",
+      "s2p1": "Dieses Plugin ist ein modernisierter Fork von IntelliJDeodorant von Nikolaos Tsantalis et al. (Concordia University). Das ursprüngliche Projekt steht ebenfalls unter der MIT-Lizenz:",
+      "s2Repo": "Original-Repository: github.com/JetBrains-Research/IntelliJDeodorant",
+
+      "s3Title": "3. Wichtige Plattform-Abhängigkeiten",
+      "s3p1": "Die Web-Plattform verwendet folgende wesentliche Open-Source-Pakete (alle MIT-lizenziert, sofern nicht anders angegeben):",
+      "s3Item1": "Next.js — MIT — github.com/vercel/next.js",
+      "s3Item2": "React — MIT — github.com/facebook/react",
+      "s3Item3": "Tailwind CSS — MIT — github.com/tailwindlabs/tailwindcss",
+      "s3Item4": "Base UI (@base-ui/react) — MIT — base-ui.com",
+      "s3Item5": "next-intl — MIT — github.com/amannn/next-intl",
+      "s3Item6": "Lucide Icons — ISC — github.com/lucide-icons/lucide",
+      "s3Item7": "class-variance-authority — Apache 2.0 — github.com/joe-bell/cva",
+      "s3Item8": "TypeScript — Apache 2.0 — github.com/microsoft/TypeScript",
+
+      "s4Title": "4. Mitwirken",
+      "s4p1": "Beiträge zu intellij-deodorant-reborn sind herzlich willkommen! Alle Beiträge werden unter der MIT-Lizenz akzeptiert.",
+      "s4p2": "Besuchen Sie das GitHub-Repository, um Issues zu erstellen, Pull Requests einzureichen oder die Beitragsrichtlinien zu lesen:"
+    },
+
+    "impressum": {
+      "metaTitle": "Impressum — intellij-deodorant-reborn",
+      "metaDesc": "Pflichtangaben gemäß § 5 TMG für die intellij-deodorant-reborn Plattform.",
+      "title": "Impressum",
+      "legalNote": "Angaben gemäß § 5 TMG (Telemediengesetz)",
+
+      "s1Title": "Verantwortlicher",
+      "s1Name": "Dateng Tankoua Emery Josian",
+      "s1AddressLabel": "Anschrift:",
+      "s1Address": "[Straße und Hausnummer], [PLZ Ort], Deutschland",
+      "s1EmailLabel": "E-Mail:",
+      "s1Email": "datengtankoua@gmail.com",
+      "s1Note": "Dieses Angebot ist ein privates, nicht-kommerzielles Open-Source-Portfolio-Projekt. Es werden keine Waren oder Dienstleistungen verkauft.",
+
+      "s2Title": "Verantwortlicher i.S.d. § 55 Abs. 2 RStV",
+      "s2Content": "Dateng Tankoua Emery Josian, Anschrift wie oben.",
+
+      "s3Title": "Haftungsausschluss",
+      "s3p1": "Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.",
+      "s3p2": "Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8–10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen.",
+
+      "s4Title": "Urheberrecht",
+      "s4p1": "Der Quellcode des Plugins steht unter der MIT-Lizenz (siehe /licenses). Die übrigen Inhalte dieser Website unterliegen dem deutschen Urheberrecht.",
+
+      "s5Title": "Externe Links",
+      "s5p1": "Diese Website enthält Links zu externen Websites Dritter. Für deren Inhalte sind stets die jeweiligen Anbieter verantwortlich. Wir haben keinen Einfluss auf diese Inhalte.",
+
+      "s6Title": "Streitschlichtung",
+      "s6p1": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung bereit: ec.europa.eu/consumers/odr/",
+      "s6p2": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen, da es sich um ein nicht-kommerzielles Privatprojekt handelt."
+    }
+  }
+}

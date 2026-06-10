@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl'
 
 import { GithubIcon, LinkedinIcon } from '@/components/brand-icons'
 import { siteConfig } from '@/config/site'
+import LegalFooter from '@/components/shared/legal-footer'
 
 /**
  * Global footer — FR-GLB-3.
@@ -40,6 +41,7 @@ export function Footer() {
           </a>
         </div>
       </div>
+      <LegalFooter />
     </footer>
   )
 }
