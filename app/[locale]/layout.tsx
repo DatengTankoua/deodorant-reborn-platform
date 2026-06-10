@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       template: t('titleTemplate'),
     },
     description: t('description'),
-    keywords: ['IntelliJ plugin', 'code clone detection', 'refactoring', 'Java', 'Kotlin'],
+    keywords: ['IntelliJ plugin', 'code clone detection', 'refactoring', 'Java', 'PMD CPD', 'topology-based refactoring'],
     openGraph: {
       type: 'website',
       locale,

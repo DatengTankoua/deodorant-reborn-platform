@@ -1,4 +1,4 @@
-import { ScanSearch, GitCompare, Wrench, Puzzle, Zap, ShieldCheck } from 'lucide-react'
+import { ScanSearch, GitCompare, Wrench, Puzzle, Database, ShieldCheck } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 
 type FeatureKey =
@@ -20,7 +20,7 @@ const FEATURES: Feature[] = [
   { key: 'type2', icon: <GitCompare className="size-5" /> },
   { key: 'refactoring', icon: <Wrench className="size-5" /> },
   { key: 'ide', icon: <Puzzle className="size-5" /> },
-  { key: 'incremental', icon: <Zap className="size-5" /> },
+  { key: 'incremental', icon: <Database className="size-5" /> },
   { key: 'research', icon: <ShieldCheck className="size-5" /> },
 ]
 

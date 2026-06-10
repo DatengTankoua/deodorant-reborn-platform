@@ -107,7 +107,7 @@
       "intro": "En accédant à la plateforme ou au plugin intellij-deodorant-reborn ou en les utilisant, vous acceptez les présentes Conditions d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser la plateforme ou le plugin.",
 
       "s1Title": "1. Description du service",
-      "s1p1": "intellij-deodorant-reborn est un plugin IntelliJ IDEA gratuit et open source permettant de détecter et de refactoriser les clones de code de type 1 et de type 2 dans les projets Java/Kotlin. Cette plateforme est son hub de documentation, de communauté et de téléchargement.",
+      "s1p1": "intellij-deodorant-reborn est un plugin IntelliJ IDEA gratuit et open source permettant de détecter et de refactoriser les clones de code de type 1 et de type 2 dans les projets Java. Cette plateforme est son hub de documentation, de communauté et de téléchargement.",
       "s1p2": "La plateforme et le plugin sont fournis gratuitement en tant que projet de portfolio et de recherche académique. Aucun service commercial, abonnement ou fonctionnalité payante n'est proposé.",
 
       "s2Title": "2. Acceptation des conditions",
@@ -263,7 +263,7 @@
       "s1Title": "Responsable",
       "s1Name": "Dateng Tankoua Emery Josian",
       "s1AddressLabel": "Adresse :",
-      "s1Address": "[Rue et numéro], [Code postal Ville], Allemagne",
+      "s1Address": "Geschwister-Scholl-Straße 11B, 35039 Marburg, Allemagne",
       "s1EmailLabel": "E-mail :",
       "s1Email": "datengtankoua@gmail.com",
       "s1Note": "Ce site est un projet de portfolio open source privé et non commercial. Aucun bien ou service n'est vendu.",

@@ -30,7 +30,7 @@
       "metaDesc": "Erfahren Sie, wie die intellij-deodorant-reborn Plattform Ihre personenbezogenen Daten gemäß DSGVO erhebt, verwendet und schützt.",
       "title": "Datenschutzerklärung",
       "lastUpdated": "10. Juni 2026",
-      "intro": "Diese Datenschutzerklärung erläutert, wie Dateng Tankoua Emery Josian („wir") personenbezogene Daten erhebt, verwendet und schützt, wenn Sie die intellij-deodorant-reborn Plattform nutzen. Wir verpflichten uns zum Schutz Ihrer Privatsphäre gemäß der Datenschutz-Grundverordnung (DSGVO) und dem anwendbaren deutschen Datenschutzrecht.",
+      "intro": "Diese Datenschutzerklärung erläutert, wie Dateng Tankoua Emery Josian („wir\") personenbezogene Daten erhebt, verwendet und schützt, wenn Sie die intellij-deodorant-reborn Plattform nutzen. Wir verpflichten uns zum Schutz Ihrer Privatsphäre gemäß der Datenschutz-Grundverordnung (DSGVO) und dem anwendbaren deutschen Datenschutzrecht.",
 
       "s1Title": "1. Verantwortlicher",
       "s1p1": "Der Verantwortliche im Sinne der DSGVO ist:",
@@ -107,7 +107,7 @@
       "intro": "Mit dem Zugriff auf oder der Nutzung der intellij-deodorant-reborn Plattform und des Plugins erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie nicht einverstanden sind, nutzen Sie die Plattform oder das Plugin bitte nicht.",
 
       "s1Title": "1. Leistungsbeschreibung",
-      "s1p1": "intellij-deodorant-reborn ist ein kostenloses, quelloffenes IntelliJ-IDEA-Plugin zur Erkennung und Refaktorierung von Typ-1- und Typ-2-Code-Klonen in Java/Kotlin-Projekten. Diese Plattform dient als Dokumentations-, Community- und Download-Hub.",
+      "s1p1": "intellij-deodorant-reborn ist ein kostenloses, quelloffenes IntelliJ-IDEA-Plugin zur Erkennung und Refaktorierung von Typ-1- und Typ-2-Code-Klonen in Java-Projekten. Diese Plattform dient als Dokumentations-, Community- und Download-Hub.",
       "s1p2": "Plattform und Plugin werden kostenlos als Portfolio- und Forschungsprojekt bereitgestellt. Es werden keine kommerziellen Dienste, Abonnements oder kostenpflichtigen Funktionen angeboten.",
 
       "s2Title": "2. Akzeptanz der Bedingungen",
@@ -133,7 +133,7 @@
       "s5Item5": "Die Plattform oder das Plugin für Zwecke nutzen, die gegen geltendes Recht verstoßen.",
 
       "s6Title": "6. Haftungsausschluss für das Plugin",
-      "s6p1": "DAS PLUGIN WIRD „WIE BESEHEN" (AS IS) OHNE JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GARANTIE BEREITGESTELLT, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF GARANTIEN DER MARKTGÄNGIGKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG VON RECHTEN DRITTER.",
+      "s6p1": "DAS PLUGIN WIRD „WIE BESEHEN\" (AS IS) OHNE JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GARANTIE BEREITGESTELLT, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF GARANTIEN DER MARKTGÄNGIGKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG VON RECHTEN DRITTER.",
       "s6p2": "Automatisiertes Code-Refactoring birgt inhärente Risiken. Vor der Anwendung eines Refactorings sollten Sie:",
       "s6Item1": "Alle vorgeschlagenen Änderungen sorgfältig in der IntelliJ-IDEA-Diff-Ansicht überprüfen.",
       "s6Item2": "Sicherstellen, dass Ihr Code vor der Anwendung von Änderungen in die Versionskontrolle eingecheckt ist.",
@@ -263,7 +263,7 @@
       "s1Title": "Verantwortlicher",
       "s1Name": "Dateng Tankoua Emery Josian",
       "s1AddressLabel": "Anschrift:",
-      "s1Address": "[Straße und Hausnummer], [PLZ Ort], Deutschland",
+      "s1Address": "Geschwister-Scholl-Straße 11B, 35039 Marburg, Deutschland",
       "s1EmailLabel": "E-Mail:",
       "s1Email": "datengtankoua@gmail.com",
       "s1Note": "Dieses Angebot ist ein privates, nicht-kommerzielles Open-Source-Portfolio-Projekt. Es werden keine Waren oder Dienstleistungen verkauft.",

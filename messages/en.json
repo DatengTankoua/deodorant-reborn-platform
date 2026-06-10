@@ -2,7 +2,7 @@
   "Metadata": {
     "title": "intellij-deodorant-reborn — Code Clone Detection Plugin",
     "titleTemplate": "%s | intellij-deodorant-reborn",
-    "description": "Open-source IntelliJ IDEA plugin for detecting and refactoring Type-1 and Type-2 code clones in Java/Kotlin projects. Research-driven, automated refactoring suggestions."
+    "description": "Open-source IntelliJ IDEA plugin for detecting and refactoring Type-1 and Type-2 code clones in Java projects. Topology-aware, automated refactoring integrated directly into the IDE."
   },
   "Nav": {
     "home": "Home",
@@ -15,7 +15,7 @@
   },
   "Hero": {
     "badge": "IntelliJ Platform Plugin",
-    "description": "Open-source IntelliJ IDEA plugin for detecting and refactoring Type-1 and Type-2 code clones in Java/Kotlin projects — research-driven, automated refactoring suggestions.",
+    "description": "Open-source IntelliJ IDEA plugin for detecting and refactoring Type-1 and Type-2 code clones in Java projects — topology-aware automated refactoring integrated directly into the IDE.",
     "download": "Download Plugin",
     "viewSource": "View Source"
   },
@@ -30,15 +30,15 @@
     "heading": "Everything you need to fight code duplication",
     "subheading": "A research-backed toolkit integrated directly into your IntelliJ workflow.",
     "type1Title": "Type-1 Clone Detection",
-    "type1Description": "Identifies identical code fragments that differ only in whitespace, layout, and comments — across your entire Java/Kotlin project.",
+    "type1Description": "Identifies identical code fragments that differ only in whitespace, layout, and comments — across your entire Java project.",
     "type2Title": "Type-2 Clone Detection",
-    "type2Description": "Finds syntactically similar code that differs in identifiers, literals, or types, catching near-duplicates that manual review misses.",
+    "type2Description": "Finds syntactically similar code that differs in identifiers, literals, or types — catching near-duplicates that manual review would miss.",
     "refactoringTitle": "Automated Refactoring",
-    "refactoringDescription": "One-click refactoring suggestions — extract method, extract variable, and more — applied safely with full preview inside IntelliJ IDEA.",
+    "refactoringDescription": "Topology-aware refactoring: Extract Method within the same class, Pull Up to a shared superclass, or extract to a dedicated utility class — with a confirmation dialog before any change.",
     "ideTitle": "Seamless IDE Integration",
-    "ideDescription": "Runs inside IntelliJ IDEA as a first-class plugin: inspections, gutter icons, and a dedicated tool window with no external setup.",
-    "incrementalTitle": "Incremental Analysis",
-    "incrementalDescription": "Only re-analyses changed files, keeping detection fast even on large codebases without blocking your workflow.",
+    "ideDescription": "Runs inside IntelliJ IDEA as a first-class plugin with a dedicated Tool Window — no external tools, command-line setup, or build changes required.",
+    "incrementalTitle": "Smart Caching",
+    "incrementalDescription": "Analysis results are cached between runs. Re-running detection on an unchanged codebase completes in about one second — no matter how large the project.",
     "researchTitle": "Research-Driven",
     "researchDescription": "Built on peer-reviewed clone detection research. Every detection heuristic is documented and traceable back to academic literature."
   },
@@ -49,19 +49,19 @@
     "metaTitle": "About — intellij-deodorant-reborn",
     "metaDesc": "Learn about the intellij-deodorant-reborn plugin, its academic origins, the author, and how to contribute.",
     "title": "About intellij-deodorant-reborn",
-    "subtitle": "A research-driven, open-source tool to eliminate code clones from Java and Kotlin projects — built as a portfolio thesis project.",
+    "subtitle": "A research-driven, open-source tool to eliminate code clones from Java projects — built as a portfolio thesis project.",
 
     "originTitle": "Origin & Motivation",
     "originP1": "intellij-deodorant-reborn is a modernised fork of IntelliJDeodorant, originally developed by the Software Analysis and Intelligence Lab at Concordia University. The original plugin pioneered automated detection and refactoring of code clones inside IntelliJ IDEA, but its development stalled with an outdated API and no active maintenance.",
     "originP2": "This project was born as a Bachelor thesis to breathe new life into that research: updating the plugin to the current IntelliJ Platform SDK, improving clone detection accuracy, and building a community platform around it so the work remains relevant and maintainable.",
 
     "whatTitle": "What it does",
-    "whatIntro": "The plugin analyses Java and Kotlin source files inside IntelliJ IDEA and:",
+    "whatIntro": "The plugin analyses Java source files inside IntelliJ IDEA and:",
     "whatItem1": "Detects Type-1 clones — identical code blocks differing only in whitespace, layout, or comments.",
     "whatItem2": "Detects Type-2 clones — syntactically similar blocks differing in identifiers, literals, or types.",
-    "whatItem3": "Proposes one-click refactoring suggestions (Extract Method, Extract Variable) with a full diff preview.",
-    "whatItem4": "Integrates seamlessly as an IntelliJ inspection — no external tools or build changes needed.",
-    "whatItem5": "Performs incremental analysis, re-checking only changed files to stay fast on large codebases.",
+    "whatItem3": "Selects the right refactoring strategy based on class topology: Extract Method (same class), Extract & Pull Up (shared superclass), or Extract Utility Class — with a confirmation dialog before any structural change.",
+    "whatItem4": "Integrates seamlessly via a dedicated IntelliJ Tool Window — no external tools or build changes needed.",
+    "whatItem5": "Caches analysis results between runs — re-detection on an unchanged codebase completes in about one second.",
 
     "authorTitle": "The Author",
     "authorName": "Dateng Tankoua Emery Josian",
@@ -71,9 +71,9 @@
 
     "techTitle": "Technology Stack",
     "techPluginTitle": "Plugin",
-    "techPlugin1": "IntelliJ Platform SDK (Kotlin)",
+    "techPlugin1": "IntelliJ Platform SDK (Java 21)",
     "techPlugin2": "PSI (Program Structure Interface) for AST analysis",
-    "techPlugin3": "IntelliJ Inspections & QuickFix API",
+    "techPlugin3": "Dedicated Tool Window (JBTable) + PMD CPD 7 integration",
     "techPlugin4": "Gradle + IntelliJ Gradle Plugin",
     "techPlatformTitle": "Community Platform",
     "techPlatform1": "Next.js 16 (App Router, TypeScript)",
@@ -89,8 +89,8 @@
 
     "researchTitle": "Academic Background",
     "researchP1": "The clone detection algorithms implemented in this plugin are based on the following peer-reviewed publications:",
-    "researchItem1": "Tsantalis, N. & Chatzigeorgiou, A. (2009). \"Identification of Move Method Refactoring Opportunities.\" IEEE TSE.",
+    "researchItem1": "Roy, C. K. & Cordy, J. R. (2007). \"A Survey on Software Clone Detection Research.\" Technical Report, Queen's University.",
     "researchItem2": "Tsantalis, N. et al. (2018). \"IntelliJDeodorant: Identification and Application of Extract Method Refactoring.\" ICSE-C.",
-    "researchItem3": "Roy, C. K. & Cordy, J. R. (2007). \"A Survey on Software Clone Detection Research.\" Technical Report."
+    "researchItem3": "Fowler, M. (1999). \"Refactoring: Improving the Design of Existing Code.\" Addison-Wesley."
   }
 }

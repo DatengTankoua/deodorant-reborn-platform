@@ -6,7 +6,7 @@ export const siteConfig = {
   plugin: {
     title: 'intellij-deodorant-reborn',
     description:
-      'Open-source IntelliJ IDEA plugin for detecting and refactoring Type-1 and Type-2 code clones in Java/Kotlin projects — research-driven, automated refactoring suggestions.',
+      'Open-source IntelliJ IDEA plugin for detecting and refactoring Type-1 and Type-2 code clones in Java projects — topology-aware automated refactoring integrated directly into the IDE.',
     downloadUrl: 'https://plugins.jetbrains.com/plugin/your-plugin-id',
     sourceUrl: 'https://github.com/DatengTankoua/intellijdeodorant-thesis',
   },
