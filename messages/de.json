@@ -44,5 +44,53 @@
   },
   "Footer": {
     "builtBy": "Erstellt von"
+  },
+  "About": {
+    "metaTitle": "Über uns — intellij-deodorant-reborn",
+    "metaDesc": "Erfahren Sie mehr über das intellij-deodorant-reborn Plugin, seine akademischen Wurzeln, den Autor und wie Sie beitragen können.",
+    "title": "Über intellij-deodorant-reborn",
+    "subtitle": "Ein forschungsbasiertes, quelloffenes Werkzeug zur Beseitigung von Code-Klonen aus Java- und Kotlin-Projekten — entwickelt als Portfolio-Abschlussarbeit.",
+
+    "originTitle": "Entstehung & Motivation",
+    "originP1": "intellij-deodorant-reborn ist ein modernisierter Fork von IntelliJDeodorant, der ursprünglich vom Software Analysis and Intelligence Lab der Concordia University entwickelt wurde. Das ursprüngliche Plugin war ein Pionier bei der automatisierten Erkennung und Refaktorierung von Code-Klonen in IntelliJ IDEA, wurde jedoch aufgrund veralteter APIs und fehlender aktiver Pflege eingestellt.",
+    "originP2": "Dieses Projekt entstand als Bachelorarbeit, um dieser Forschung neues Leben einzuhauchen: das Plugin auf das aktuelle IntelliJ Platform SDK zu aktualisieren, die Klon-Erkennungsgenauigkeit zu verbessern und eine Community-Plattform darum herum aufzubauen, damit die Arbeit relevant und wartbar bleibt.",
+
+    "whatTitle": "Was es leistet",
+    "whatIntro": "Das Plugin analysiert Java- und Kotlin-Quelldateien in IntelliJ IDEA und:",
+    "whatItem1": "Erkennt Typ-1-Klone — identische Code-Blöcke, die sich nur in Leerzeichen, Layout oder Kommentaren unterscheiden.",
+    "whatItem2": "Erkennt Typ-2-Klone — syntaktisch ähnliche Blöcke, die sich in Bezeichnern, Literalen oder Typen unterscheiden.",
+    "whatItem3": "Schlägt Ein-Klick-Refactoring-Aktionen vor (Methode extrahieren, Variable extrahieren) mit vollständiger Diff-Vorschau.",
+    "whatItem4": "Integriert sich nahtlos als IntelliJ-Inspektion — keine externen Werkzeuge oder Build-Änderungen erforderlich.",
+    "whatItem5": "Führt inkrementelle Analysen durch und prüft nur geänderte Dateien erneut, um auch bei großen Codebasen schnell zu bleiben.",
+
+    "authorTitle": "Der Autor",
+    "authorName": "Dateng Tankoua Emery Josian",
+    "authorRole": "Bachelor-Absolvent in Software Engineering · Wohnhaft in Deutschland",
+    "authorBio": "Ich habe intellij-deodorant-reborn als meine Bachelorarbeit entwickelt, wobei ich meine Leidenschaft für statische Analyse, Entwicklerwerkzeuge und Open-Source-Software vereint habe. Ziel war es nicht nur, eine Arbeit einzureichen, sondern ein echtes Werkzeug zu liefern, das Entwickler tatsächlich installieren und nutzen können — und den Prozess als öffentliches Portfolio zu dokumentieren.",
+    "authorContact": "Kontakt aufnehmen:",
+
+    "techTitle": "Technologie-Stack",
+    "techPluginTitle": "Plugin",
+    "techPlugin1": "IntelliJ Platform SDK (Kotlin)",
+    "techPlugin2": "PSI (Program Structure Interface) für AST-Analyse",
+    "techPlugin3": "IntelliJ Inspections & QuickFix API",
+    "techPlugin4": "Gradle + IntelliJ Gradle Plugin",
+    "techPlatformTitle": "Community-Plattform",
+    "techPlatform1": "Next.js 16 (App Router, TypeScript)",
+    "techPlatform2": "Tailwind CSS + Base UI",
+    "techPlatform3": "Supabase (PostgreSQL + Auth)",
+    "techPlatform4": "Spring Boot 3 / Java 21 (Backend-API)",
+    "techPlatform5": "Vercel (Frontend) · Render (Backend)",
+
+    "contributeTitle": "Mitwirken",
+    "contributeP1": "intellij-deodorant-reborn ist vollständig quelloffen unter der MIT-Lizenz. Beiträge jeder Art sind willkommen: Fehlermeldungen, Feature-Anfragen, Dokumentationsverbesserungen oder Code.",
+    "contributeP2": "Die Plugin- und Plattform-Repositories befinden sich auf GitHub. Im Issues-Tab finden Sie offene Aufgaben — oder öffnen Sie ein neues Issue, wenn Sie eine Idee haben.",
+    "contributeButton": "Auf GitHub ansehen",
+
+    "researchTitle": "Akademischer Hintergrund",
+    "researchP1": "Die im Plugin implementierten Klon-Erkennungsalgorithmen basieren auf folgenden begutachteten Veröffentlichungen:",
+    "researchItem1": "Tsantalis, N. & Chatzigeorgiou, A. (2009). \"Identification of Move Method Refactoring Opportunities.\" IEEE TSE.",
+    "researchItem2": "Tsantalis, N. et al. (2018). \"IntelliJDeodorant: Identification and Application of Extract Method Refactoring.\" ICSE-C.",
+    "researchItem3": "Roy, C. K. & Cordy, J. R. (2007). \"A Survey on Software Clone Detection Research.\" Technischer Bericht."
   }
 }
