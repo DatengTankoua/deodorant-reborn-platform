@@ -26,6 +26,9 @@ build/
 .vscode/copilot-agents/
 *.agent.md
 
+# ── Private documents ────────────────────────────────────────
+docs/BSc_Emery_Josian.tex
+
 # ── IDE & Editor ─────────────────────────────────────────────
 .vscode/settings.json
 .idea/
