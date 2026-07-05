@@ -25,6 +25,7 @@ build/
 .github/agents/
 .vscode/copilot-agents/
 *.agent.md
+.github/copilot-instructions.md
 
 # ── Private documents ────────────────────────────────────────
 docs/BSc_Emery_Josian.tex

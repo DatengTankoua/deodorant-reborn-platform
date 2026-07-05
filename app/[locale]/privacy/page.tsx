@@ -1,10 +1,10 @@
-import { setRequestLocale } from 'next-intl/server'
-import { getTranslations } from 'next-intl/server'
+import { setRequestLocale, getTranslations } from 'next-intl/server'
 import type { Metadata } from 'next'
 import { routing } from '@/i18n/routing'
-import Navbar from '@/features/navigation/components/navbar'
-import Footer from '@/features/layout/components/footer'
+import { Navbar } from '@/features/navigation/components/navbar'
+import { Footer } from '@/features/layout/components/footer'
 import LegalPageLayout from '@/components/shared/legal-page-layout'
+import Link from 'next/dist/client/link'
 
 interface Props {
   params: Promise<{ locale: string }>
@@ -32,8 +32,8 @@ export default async function PrivacyPage({ params }: Props) {
   const { locale } = await params
   setRequestLocale(locale)
 
-  const t = await getTranslations('Legal.privacy')
-  const tLegal = await getTranslations('Legal')
+  const t = await getTranslations({ locale, namespace: 'Legal.privacy' })
+  const tLegal = await getTranslations({ locale, namespace: 'Legal' })
 
   const sections = [
     { id: 's1', title: t('s1Title') },
@@ -140,7 +140,7 @@ export default async function PrivacyPage({ params }: Props) {
             <h2>{t('s8Title')}</h2>
             <p>
               {t('s8p1')}{' '}
-              <a href="/cookies">{tLegal('nav.cookies')}</a>
+              <Link href="/cookies">{tLegal('nav.cookies')}</Link>
             </p>
           </section>
 

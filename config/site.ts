@@ -7,8 +7,8 @@ export const siteConfig = {
     title: 'intellij-deodorant-reborn',
     description:
       'Open-source IntelliJ IDEA plugin for detecting and refactoring Type-1 and Type-2 code clones in Java projects — topology-aware automated refactoring integrated directly into the IDE.',
-    downloadUrl: 'https://plugins.jetbrains.com/plugin/your-plugin-id',
-    sourceUrl: 'https://github.com/DatengTankoua/intellijdeodorant-thesis',
+    downloadUrl: 'https://github.com/DatengTankoua/intellij-deodorant-reborn/releases/latest/download/intellij-deodorant-reborn-2025.2-COMPATIBLE-1.0.zip',
+    sourceUrl: 'https://github.com/DatengTankoua/intellij-deodorant-reborn',
   },
   author: {
     name: 'Dateng Tankoua',

@@ -1,9 +1,8 @@
-import { setRequestLocale } from 'next-intl/server'
-import { getTranslations } from 'next-intl/server'
+import { setRequestLocale, getTranslations } from 'next-intl/server'
 import type { Metadata } from 'next'
 import { routing } from '@/i18n/routing'
-import Navbar from '@/features/navigation/components/navbar'
-import Footer from '@/features/layout/components/footer'
+import { Navbar } from '@/features/navigation/components/navbar'
+import { Footer } from '@/features/layout/components/footer'
 import LegalPageLayout from '@/components/shared/legal-page-layout'
 
 interface Props {
@@ -30,7 +29,7 @@ export default async function CookiesPage({ params }: Props) {
   const { locale } = await params
   setRequestLocale(locale)
 
-  const t = await getTranslations('Legal.cookies')
+  const t = await getTranslations({ locale, namespace: 'Legal.cookies' })
 
   const sections = [
     { id: 's1', title: t('s1Title') },

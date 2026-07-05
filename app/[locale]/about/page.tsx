@@ -2,7 +2,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server'
 import type { Metadata } from 'next'
 import { routing } from '@/i18n/routing'
 import { Link } from '@/i18n/navigation'
-import Navbar from '@/features/navigation/components/navbar'
+import { Navbar } from '@/features/navigation/components/navbar'
 import { Footer } from '@/features/layout/components/footer'
 import { siteConfig } from '@/config/site'
 

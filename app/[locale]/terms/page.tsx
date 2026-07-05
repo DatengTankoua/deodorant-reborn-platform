@@ -1,10 +1,10 @@
-import { setRequestLocale } from 'next-intl/server'
-import { getTranslations } from 'next-intl/server'
+import { setRequestLocale, getTranslations } from 'next-intl/server'
 import type { Metadata } from 'next'
 import { routing } from '@/i18n/routing'
-import Navbar from '@/features/navigation/components/navbar'
-import Footer from '@/features/layout/components/footer'
+import { Navbar } from '@/features/navigation/components/navbar'
+import { Footer } from '@/features/layout/components/footer'
 import LegalPageLayout from '@/components/shared/legal-page-layout'
+import Link from 'next/dist/client/link'
 
 interface Props {
   params: Promise<{ locale: string }>
@@ -30,8 +30,8 @@ export default async function TermsPage({ params }: Props) {
   const { locale } = await params
   setRequestLocale(locale)
 
-  const t = await getTranslations('Legal.terms')
-  const tLegal = await getTranslations('Legal')
+  const t = await getTranslations({ locale, namespace: 'Legal.terms' })
+  const tLegal = await getTranslations({ locale, namespace: 'Legal' })
 
   const sections = [
     { id: 's1', title: t('s1Title') },
@@ -74,7 +74,7 @@ export default async function TermsPage({ params }: Props) {
             <p>{t('s3p1')}</p>
             <p>
               {t('s3p2')}{' '}
-              <a href="/licenses">{tLegal('nav.licenses')}</a>.
+              <Link href="/licenses">{tLegal('nav.licenses')}</Link>.
             </p>
           </section>
 
@@ -141,9 +141,9 @@ export default async function TermsPage({ params }: Props) {
           <section id="s11">
             <h2>{t('s11Title')}</h2>
             <p>
-              <a href="mailto:datengtankoua@gmail.com">
+              <Link href="mailto:datengtankoua@gmail.com">
                 {t('s11p1')}
-              </a>
+              </Link>
             </p>
           </section>
         </LegalPageLayout>
