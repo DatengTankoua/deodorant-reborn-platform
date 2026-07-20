@@ -1,0 +1,24 @@
+import * as React from 'react'
+
+import { cn } from '@/lib/utils'
+
+/**
+ * Multi-line text input styled to match the design system.
+ * Forwards every native `<textarea>` attribute (value, onChange, aria-*, …).
+ */
+function Textarea({ className, ...props }: React.ComponentProps<'textarea'>) {
+  return (
+    <textarea
+      data-slot="textarea"
+      className={cn(
+        'flex min-h-24 w-full rounded-lg border border-input bg-transparent px-3 py-2 text-base shadow-sm outline-none transition-[color,box-shadow] field-sizing-content placeholder:text-muted-foreground disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:bg-input/30',
+        'focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50',
+        'aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40',
+        className,
+      )}
+      {...props}
+    />
+  )
+}
+
+export { Textarea }

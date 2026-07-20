@@ -92,5 +92,102 @@
     "researchItem1": "Roy, C. K. & Cordy, J. R. (2007). \"A Survey on Software Clone Detection Research.\" Technical Report, Queen's University.",
     "researchItem2": "Tsantalis, N. et al. (2018). \"IntelliJDeodorant: Identification and Application of Extract Method Refactoring.\" ICSE-C.",
     "researchItem3": "Fowler, M. (1999). \"Refactoring: Improving the Design of Existing Code.\" Addison-Wesley."
+  },
+  "Community": {
+    "metaTitle": "Community",
+    "metaDesc": "Share feedback, request features, contribute to the code, and explore open research topics for the intellij-deodorant-reborn plugin.",
+    "heroTitle": "Community",
+    "heroSubtitle": "Help shape the plugin. Share feedback, request features, contribute code, and explore the research behind topology-aware clone refactoring.",
+    "feedbackSectionTitle": "Feedback",
+    "feedbackSectionDesc": "See what the community thinks and add your own rating and comments.",
+    "featureSectionTitle": "Feature requests",
+    "featureSectionDesc": "Vote on ideas the community wants next, or propose your own.",
+    "contributeSectionTitle": "How to contribute",
+    "contributeSectionDesc": "From your first fork to a merged pull request — here is how to get involved.",
+    "researchSectionTitle": "Open research topics",
+    "researchSectionDesc": "Active research directions where collaboration and contributions are welcome.",
+    "rating": {
+      "readonlyAria": "{label}: {value} out of {max} stars",
+      "starAria": "{count, plural, one {# star} other {# stars}}"
+    },
+    "feedbackForm": {
+      "title": "Share your feedback",
+      "subtitle": "Tell us what you think about the plugin.",
+      "ratingLabel": "Rating",
+      "ratingAria": "Your rating",
+      "messageLabel": "Message",
+      "messagePlaceholder": "What did you like or what could be improved?",
+      "emailLabel": "Email",
+      "optional": "(optional)",
+      "submit": "Submit feedback",
+      "submitting": "Submitting…",
+      "success": "Thanks! Your feedback has been submitted.",
+      "errorMessageMin": "Message must be at least {min} characters.",
+      "errorRatingRequired": "Please select a rating.",
+      "errorEmailInvalid": "Please enter a valid email address.",
+      "errorGeneric": "Something went wrong. Please try again.",
+      "ariaLabel": "Submit feedback"
+    },
+    "feedbackList": {
+      "emptyTitle": "No feedback yet",
+      "emptyDesc": "Be the first to share your thoughts about the plugin.",
+      "retry": "Retry",
+      "anonymous": "Anonymous",
+      "loadError": "Failed to load feedback."
+    },
+    "featureForm": {
+      "title": "Request a feature",
+      "subtitle": "Suggest an improvement or a new capability.",
+      "titleLabel": "Title",
+      "titlePlaceholder": "Short summary of the feature",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Describe the feature and why it would be useful…",
+      "emailLabel": "Email",
+      "optional": "(optional)",
+      "submit": "Submit request",
+      "submitting": "Submitting…",
+      "success": "Thanks! Your feature request has been submitted.",
+      "errorTitleRequired": "Please enter a title.",
+      "errorDescriptionMin": "Description must be at least {min} characters.",
+      "errorEmailInvalid": "Please enter a valid email address.",
+      "errorGeneric": "Something went wrong. Please try again.",
+      "ariaLabel": "Submit a feature request"
+    },
+    "featureList": {
+      "emptyTitle": "No feature requests yet",
+      "emptyDesc": "Have an idea? Submit the first feature request.",
+      "retry": "Retry",
+      "loadError": "Failed to load feature requests.",
+      "votes": "{count, plural, one {# vote} other {# votes}}",
+      "upvoteAria": "Upvote {title}. Current votes: {votes}"
+    },
+    "contribution": {
+      "step1Title": "1. Fork & branch",
+      "step1Desc": "Fork the repository, then create a focused feature branch from main for your change.",
+      "step2Title": "2. Build & test",
+      "step2Desc": "Follow the README to build the plugin locally and make sure existing tests pass before you start.",
+      "step3Title": "3. Open a pull request",
+      "step3Desc": "Push your branch and open a PR with a clear description of what changed and why.",
+      "cocTitle": "Code of conduct",
+      "cocDesc": "We are committed to a welcoming, harassment-free community. By contributing you agree to be respectful and constructive in all interactions.",
+      "viewRepo": "View repository",
+      "browseIssues": "Browse open issues",
+      "everyContribution": "Every contribution counts"
+    },
+    "research": {
+      "topic1Title": "Type-3 clone detection",
+      "topic1Status": "Exploratory",
+      "topic1Desc": "Extend detection beyond Type-1 and Type-2 to near-miss (Type-3) clones with added, removed, or modified statements while keeping refactoring safe.",
+      "topic2Title": "Kotlin support",
+      "topic2Status": "Planned",
+      "topic2Desc": "Adapt the topology-aware analysis and refactoring engine to Kotlin so mixed Java/Kotlin projects benefit from the same tooling.",
+      "topic3Title": "Performance benchmarks",
+      "topic3Status": "Help wanted",
+      "topic3Desc": "Build a reproducible benchmark suite to measure detection accuracy and refactoring latency on large real-world codebases.",
+      "ctaTitle": "Interested in one of these topics?",
+      "ctaDesc": "Whether you want to collaborate on research, contribute code, or share a dataset — we would love to hear from you.",
+      "getInTouch": "Get in touch",
+      "exploreCode": "Explore the code"
+    }
   }
 }
