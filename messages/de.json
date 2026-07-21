@@ -92,5 +92,102 @@
     "researchItem1": "Roy, C. K. & Cordy, J. R. (2007). \"A Survey on Software Clone Detection Research.\" Technischer Bericht, Queen's University.",
     "researchItem2": "Tsantalis, N. et al. (2018). \"IntelliJDeodorant: Identification and Application of Extract Method Refactoring.\" ICSE-C.",
     "researchItem3": "Fowler, M. (1999). \"Refactoring: Improving the Design of Existing Code.\" Addison-Wesley."
+  },
+  "Community": {
+    "metaTitle": "Community",
+    "metaDesc": "Teilen Sie Feedback, schlagen Sie Funktionen vor, tragen Sie zum Code bei und entdecken Sie offene Forschungsthemen für das intellij-deodorant-reborn Plugin.",
+    "heroTitle": "Community",
+    "heroSubtitle": "Gestalten Sie das Plugin mit. Teilen Sie Feedback, schlagen Sie Funktionen vor, tragen Sie Code bei und entdecken Sie die Forschung hinter topologiebasiertem Klon-Refactoring.",
+    "feedbackSectionTitle": "Feedback",
+    "feedbackSectionDesc": "Sehen Sie, was die Community denkt, und fügen Sie Ihre eigene Bewertung und Kommentare hinzu.",
+    "featureSectionTitle": "Funktionswünsche",
+    "featureSectionDesc": "Stimmen Sie über Ideen ab, die die Community als Nächstes möchte, oder schlagen Sie eigene vor.",
+    "contributeSectionTitle": "Wie man beiträgt",
+    "contributeSectionDesc": "Vom ersten Fork bis zum gemergten Pull Request — so können Sie mitmachen.",
+    "researchSectionTitle": "Offene Forschungsthemen",
+    "researchSectionDesc": "Aktive Forschungsrichtungen, in denen Zusammenarbeit und Beiträge willkommen sind.",
+    "rating": {
+      "readonlyAria": "{label}: {value} von {max} Sternen",
+      "starAria": "{count, plural, one {# Stern} other {# Sterne}}"
+    },
+    "feedbackForm": {
+      "title": "Teilen Sie Ihr Feedback",
+      "subtitle": "Sagen Sie uns, was Sie über das Plugin denken.",
+      "ratingLabel": "Bewertung",
+      "ratingAria": "Ihre Bewertung",
+      "messageLabel": "Nachricht",
+      "messagePlaceholder": "Was hat Ihnen gefallen oder was könnte verbessert werden?",
+      "emailLabel": "E-Mail",
+      "optional": "(optional)",
+      "submit": "Feedback senden",
+      "submitting": "Wird gesendet…",
+      "success": "Danke! Ihr Feedback wurde übermittelt.",
+      "errorMessageMin": "Die Nachricht muss mindestens {min} Zeichen lang sein.",
+      "errorRatingRequired": "Bitte wählen Sie eine Bewertung.",
+      "errorEmailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+      "ariaLabel": "Feedback senden"
+    },
+    "feedbackList": {
+      "emptyTitle": "Noch kein Feedback",
+      "emptyDesc": "Seien Sie der Erste, der seine Gedanken zum Plugin teilt.",
+      "retry": "Erneut versuchen",
+      "anonymous": "Anonym",
+      "loadError": "Feedback konnte nicht geladen werden."
+    },
+    "featureForm": {
+      "title": "Funktion vorschlagen",
+      "subtitle": "Schlagen Sie eine Verbesserung oder eine neue Funktion vor.",
+      "titleLabel": "Titel",
+      "titlePlaceholder": "Kurze Zusammenfassung der Funktion",
+      "descriptionLabel": "Beschreibung",
+      "descriptionPlaceholder": "Beschreiben Sie die Funktion und warum sie nützlich wäre…",
+      "emailLabel": "E-Mail",
+      "optional": "(optional)",
+      "submit": "Vorschlag senden",
+      "submitting": "Wird gesendet…",
+      "success": "Danke! Ihr Funktionswunsch wurde übermittelt.",
+      "errorTitleRequired": "Bitte geben Sie einen Titel ein.",
+      "errorDescriptionMin": "Die Beschreibung muss mindestens {min} Zeichen lang sein.",
+      "errorEmailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+      "ariaLabel": "Funktionswunsch senden"
+    },
+    "featureList": {
+      "emptyTitle": "Noch keine Funktionswünsche",
+      "emptyDesc": "Haben Sie eine Idee? Reichen Sie den ersten Funktionswunsch ein.",
+      "retry": "Erneut versuchen",
+      "loadError": "Funktionswünsche konnten nicht geladen werden.",
+      "votes": "{count, plural, one {# Stimme} other {# Stimmen}}",
+      "upvoteAria": "{title} hochstimmen. Aktuelle Stimmen: {votes}"
+    },
+    "contribution": {
+      "step1Title": "1. Forken & Branch erstellen",
+      "step1Desc": "Forken Sie das Repository und erstellen Sie einen fokussierten Feature-Branch von main für Ihre Änderung.",
+      "step2Title": "2. Bauen & testen",
+      "step2Desc": "Folgen Sie der README, um das Plugin lokal zu bauen, und stellen Sie sicher, dass die bestehenden Tests bestehen, bevor Sie beginnen.",
+      "step3Title": "3. Pull Request öffnen",
+      "step3Desc": "Pushen Sie Ihren Branch und öffnen Sie einen PR mit einer klaren Beschreibung, was sich geändert hat und warum.",
+      "cocTitle": "Verhaltenskodex",
+      "cocDesc": "Wir setzen uns für eine einladende, belästigungsfreie Community ein. Mit Ihrem Beitrag erklären Sie sich bereit, in allen Interaktionen respektvoll und konstruktiv zu sein.",
+      "viewRepo": "Repository ansehen",
+      "browseIssues": "Offene Issues durchsuchen",
+      "everyContribution": "Jeder Beitrag zählt"
+    },
+    "research": {
+      "topic1Title": "Typ-3-Klon-Erkennung",
+      "topic1Status": "Explorativ",
+      "topic1Desc": "Erweitern Sie die Erkennung über Typ-1 und Typ-2 hinaus auf Near-Miss-Klone (Typ-3) mit hinzugefügten, entfernten oder geänderten Anweisungen, während das Refactoring sicher bleibt.",
+      "topic2Title": "Kotlin-Unterstützung",
+      "topic2Status": "Geplant",
+      "topic2Desc": "Passen Sie die topologiebasierte Analyse- und Refactoring-Engine an Kotlin an, damit gemischte Java/Kotlin-Projekte von denselben Werkzeugen profitieren.",
+      "topic3Title": "Performance-Benchmarks",
+      "topic3Status": "Hilfe gesucht",
+      "topic3Desc": "Erstellen Sie eine reproduzierbare Benchmark-Suite, um die Erkennungsgenauigkeit und Refactoring-Latenz an großen realen Codebasen zu messen.",
+      "ctaTitle": "Interessiert an einem dieser Themen?",
+      "ctaDesc": "Ob Sie an Forschung mitarbeiten, Code beitragen oder einen Datensatz teilen möchten — wir würden gerne von Ihnen hören.",
+      "getInTouch": "Kontakt aufnehmen",
+      "exploreCode": "Code erkunden"
+    }
   }
 }
