@@ -39,7 +39,7 @@ export function FeedbackList() {
 
     if (apiError || !data) {
       setStatus('error')
-      setError(t('loadError'))
+      setError(apiError?? t('loadError'))
       return
     }
 
