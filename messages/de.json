@@ -11,7 +11,9 @@
     "research": "Forschung",
     "projects": "Projekte",
     "about": "Über uns",
-    "selectLanguage": "Sprache auswählen"
+    "selectLanguage": "Sprache auswählen",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
   },
   "Hero": {
     "badge": "IntelliJ-Plattform-Plugin",
@@ -92,6 +94,23 @@
     "researchItem1": "Roy, C. K. & Cordy, J. R. (2007). \"A Survey on Software Clone Detection Research.\" Technischer Bericht, Queen's University.",
     "researchItem2": "Tsantalis, N. et al. (2018). \"IntelliJDeodorant: Identification and Application of Extract Method Refactoring.\" ICSE-C.",
     "researchItem3": "Fowler, M. (1999). \"Refactoring: Improving the Design of Existing Code.\" Addison-Wesley."
+  },
+  "Testimonials": {
+    "heading": "Von Java-Entwicklern geschätzt",
+    "subheading": "Das sagen Entwickler, nachdem sie mit dem Plugin Klone beseitigt haben.",
+    "ratingAria": "Bewertet mit {rating} von 5 Sternen",
+    "t1Role": "Senior Java-Entwicklerin",
+    "t1Quote": "Es hat duplizierte Logik über drei Module hinweg erkannt, von deren Zusammenhang ich keine Ahnung hatte. Das Pull-Up-Refactoring hat mir einen ganzen Nachmittag gespart.",
+    "t2Role": "Backend-Entwickler",
+    "t2Quote": "Die Typ-2-Erkennung ist erschreckend gut — sie fand Beinahe-Duplikate, die jahrelange Code-Reviews überlebt hatten.",
+    "t3Role": "Software-Architektin",
+    "t3Quote": "Endlich ein Refactoring-Werkzeug, das die Klassentopologie respektiert. Die Vorschläge entsprechen genau meiner eigenen Strukturierung.",
+    "t4Role": "Tech Lead",
+    "t4Quote": "Wir haben es in unseren Review-Prozess eingebunden. Die Klon-Dichte im Team ist innerhalb eines Monats spürbar gesunken.",
+    "t5Role": "Open-Source-Maintainer",
+    "t5Quote": "Läuft komplett in der IDE, ohne externe Einrichtung. Durch das Caching fühlen sich erneute Läufe selbst bei unserer großen Codebasis sofortig an.",
+    "t6Role": "Full-Stack-Entwicklerin",
+    "t6Quote": "Aufgeräumte UI, sichere Refactorings mit Bestätigungsdialog und fundierte Forschung dahinter. Genau das, was ich von einem Plugin erwarte."
   },
   "Community": {
     "metaTitle": "Community",

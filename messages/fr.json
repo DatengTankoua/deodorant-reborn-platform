@@ -11,7 +11,9 @@
     "research": "Recherche",
     "projects": "Projets",
     "about": "À propos",
-    "selectLanguage": "Sélectionner la langue"
+    "selectLanguage": "Sélectionner la langue",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
   },
   "Hero": {
     "badge": "Plugin IntelliJ Platform",
@@ -92,6 +94,23 @@
     "researchItem1": "Roy, C. K. & Cordy, J. R. (2007). \"A Survey on Software Clone Detection Research.\" Rapport technique, Université Queen's.",
     "researchItem2": "Tsantalis, N. et al. (2018). \"IntelliJDeodorant: Identification and Application of Extract Method Refactoring.\" ICSE-C.",
     "researchItem3": "Fowler, M. (1999). \"Refactoring: Improving the Design of Existing Code.\" Addison-Wesley."
+  },
+  "Testimonials": {
+    "heading": "Apprécié des développeurs Java",
+    "subheading": "Découvrez ce que disent les ingénieurs après avoir nettoyé les doublons de code grâce au plugin.",
+    "ratingAria": "Noté {rating} sur 5 étoiles",
+    "t1Role": "Développeur Java Senior",
+    "t1Quote": "Il a détecté une logique dupliquée entre trois modules dont je n'imaginais pas qu'ils étaient liés. Le refactoring de type « Pull Up » m'a fait gagner tout un après-midi.",
+    "t2Role": "Ingénieur Backend",
+    "t2Quote": "La détection de type 2 est incroyablement efficace : elle a repéré des quasi-doublons qui avaient échappé à des années de revues de code.",
+    "t3Role": "Architecte logiciel",
+    "t3Quote": "Enfin un outil de refactoring qui respecte la topologie des classes. Les suggestions correspondent vraiment à la manière dont je structurerais le code moi-même.",
+    "t4Role": "Tech Lead",
+    "t4Quote": "Nous l'avons intégré à notre processus de revue. La densité de doublons au sein de l'équipe a nettement diminué en un mois.",
+    "t5Role": "Mainteneur Open Source",
+    "t5Quote": "Fonctionne entièrement dans l'IDE, sans configuration externe. Grâce au système de cache, les nouvelles analyses sont instantanées, même sur notre vaste base de code.",
+    "t6Role": "Développeur Full-Stack",
+    "t6Quote": "Interface soignée, refactorings sécurisés avec confirmation, et une solide recherche en amont. C'est exactement ce que j'attends d'un plugin."
   },
   "Community": {
     "metaTitle": "Communauté",

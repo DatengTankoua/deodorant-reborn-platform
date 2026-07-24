@@ -48,7 +48,7 @@ export function FeedbackList() {
     )
     setItems(sorted)
     setStatus('success')
-  }, [t])
+  }, [])
 
   useEffect(() => {
     void load()
