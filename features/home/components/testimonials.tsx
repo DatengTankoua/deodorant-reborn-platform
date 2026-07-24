@@ -20,27 +20,6 @@ import {
   maskEmail,
 } from '@/features/community/lib/community'
 
-interface Testimonial {
-  /** Translation key prefix (matches keys in the Testimonials namespace). */
-  key: 't1' | 't2' | 't3' | 't4' | 't5' | 't6'
-  /** Reviewer display name (proper noun — not translated). */
-  name: string
-  /** Two-letter avatar initials. */
-  initials: string
-  /** Star rating out of five. */
-  rating: number
-}
-
-/** Static, positive and well-rated reviews of the plugin. */
-const TESTIMONIALS: Testimonial[] = [
-  { key: 't1', name: 'Sarah Chen', initials: 'SC', rating: 5 },
-  { key: 't2', name: 'Miguel Ramírez', initials: 'MR', rating: 5 },
-  { key: 't3', name: 'Anna Kowalski', initials: 'AK', rating: 4 },
-  { key: 't4', name: 'David Okafor', initials: 'DO', rating: 5 },
-  { key: 't5', name: 'Yuki Tanaka', initials: 'YT', rating: 5 },
-  { key: 't6', name: 'Lena Fischer', initials: 'LF', rating: 4 },
-]
-
 const MAX_STARS = 5
 
 interface StarsProps {
@@ -101,7 +80,7 @@ export function Testimonials() {
     )
     setItems(sorted)
     setStatus('success')
-  }, [])
+  }, [tb])
 
   useEffect(() => {
     void load()
