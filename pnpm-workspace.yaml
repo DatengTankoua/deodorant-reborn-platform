@@ -4,3 +4,7 @@ allowBuilds:
   msw: true
   sharp: true
   unrs-resolver: true
+
+overrides:
+  sharp: '>=0.35.0'
+  postcss: '>=8.5.22'

@@ -6,6 +6,7 @@ import { Footer } from '@/features/layout/components/footer'
 import { Hero } from '@/features/home/components/hero'
 import { StatsBar } from '@/features/home/components/stats-bar'
 import { FeaturesSection } from '@/features/home/components/features-section'
+import { Testimonials } from '@/features/home/components/testimonials'
 import { routing } from '@/i18n/routing'
 
 type Props = {
@@ -55,6 +56,7 @@ export default async function LocalePage({ params }: Props) {
         <Suspense fallback={<StatsSkeleton ariaLabel={t('loading')} />}>
           <StatsBar />
         </Suspense>
+        <Testimonials />
         <FeaturesSection />
       </main>
       <Footer />

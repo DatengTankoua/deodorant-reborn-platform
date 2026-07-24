@@ -11,7 +11,9 @@
     "research": "Research",
     "projects": "Projects",
     "about": "About",
-    "selectLanguage": "Select language"
+    "selectLanguage": "Select language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "Hero": {
     "badge": "IntelliJ Platform Plugin",
@@ -92,6 +94,23 @@
     "researchItem1": "Roy, C. K. & Cordy, J. R. (2007). \"A Survey on Software Clone Detection Research.\" Technical Report, Queen's University.",
     "researchItem2": "Tsantalis, N. et al. (2018). \"IntelliJDeodorant: Identification and Application of Extract Method Refactoring.\" ICSE-C.",
     "researchItem3": "Fowler, M. (1999). \"Refactoring: Improving the Design of Existing Code.\" Addison-Wesley."
+  },
+  "Testimonials": {
+    "heading": "Loved by Java developers",
+    "subheading": "See what engineers say after cleaning up clones with the plugin.",
+    "ratingAria": "Rated {rating} out of 5 stars",
+    "t1Role": "Senior Java Developer",
+    "t1Quote": "It flagged duplicated logic across three modules I had no idea were related. The Pull Up refactoring saved me an entire afternoon.",
+    "t2Role": "Backend Engineer",
+    "t2Quote": "The Type-2 detection is scary good — it caught near-duplicates that survived years of code reviews.",
+    "t3Role": "Software Architect",
+    "t3Quote": "Finally a refactoring tool that respects class topology. The suggestions actually match how I would structure the code myself.",
+    "t4Role": "Tech Lead",
+    "t4Quote": "We wired it into our review process. Clone density on the team dropped noticeably within a month.",
+    "t5Role": "Open Source Maintainer",
+    "t5Quote": "Runs entirely inside the IDE, no external setup. The caching makes re-runs feel instant even on our large codebase.",
+    "t6Role": "Full-Stack Developer",
+    "t6Quote": "Clean UI, safe refactorings with a confirmation dialog, and solid research behind it. Exactly what I want from a plugin."
   },
   "Community": {
     "metaTitle": "Community",
