@@ -1,6 +1,5 @@
 'use client'
 
-import { Star } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 
 import {
@@ -10,7 +9,7 @@ import {
 } from '@/components/ui/card'
 import { cn } from '@/lib/utils'
 import { useCallback, useEffect, useState } from 'react'
-import { AlertCircle, MessageSquare, RefreshCw } from 'lucide-react'
+import { AlertCircle, MessageSquare, RefreshCw, Star } from 'lucide-react'
 
 import { Button } from '@/components/ui/button'
 import { Skeleton } from '@/components/ui/skeleton'
@@ -18,7 +17,6 @@ import { feedbackService } from '@/lib/api/feedbackService'
 import type { Feedback } from '@/types/feedback'
 import {
   COMMUNITY_EVENTS,
-  formatDate,
   maskEmail,
 } from '@/features/community/lib/community'
 
